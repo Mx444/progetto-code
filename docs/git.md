@@ -43,6 +43,8 @@ git commit -m "commit" - (Salvare le modifiche)
 git branch -m branch - (Gestire i rami)
 git push -u origin (branch) - (Caricare file)
 
+git pull origin (Scaricare info)
+git clone link (Clonare repository)
 git rm - (Rimuovere file dal repository)
 git clone URL - (Clonare)
 git checkout nome_del_branch - (Cambiare branch)
