@@ -1,5 +1,5 @@
 # Vocabolario
-Argomento: Termini 
+Argomento: Termini   
 Corso: Progetto CODE 2   
 Data: 11/04/2024  
 Francesco Serauto
