@@ -87,6 +87,10 @@ git branch -m nome_vecchio_ramo nome_nuovo_ramo
  ``` bash
 git checkout branch
    ```
+**iene utilizzato per creare un nuovo ramo (branch) e passare immediatamente a quel ramo**
+ ``` bash
+git checkout -b branch
+   ```
    ## 5.Log
 **visualizzare la cronologia dei commit nel repository**
  ``` bash
