@@ -39,3 +39,23 @@
 19. **Refactoring**: Il processo di riorganizzazione e miglioramento del codice sorgente senza modificare il suo comportamento esterno. Il refactoring è utilizzato per rendere il codice più pulito, leggibile e manutenibile, riducendo la complessità e migliorando la struttura del software.
 
 20. **Framework**: Una struttura di supporto su cui è possibile costruire e sviluppare applicazioni software. I framework forniscono un set di librerie, strumenti e linee guida che semplificano lo sviluppo di software, accelerando il processo di sviluppo e riducendo la necessità di scrivere codice da zero.
+
+21. **Compilatore**: Un programma che traduce il codice sorgente scritto in un linguaggio di programmazione in un linguaggio macchina eseguibile dal computer.
+
+22. **Interprete**: Un programma che esegue istruzioni di codice sorgente direttamente senza la necessità di una fase di compilazione, interpretando e eseguendo le istruzioni una alla volta.
+
+23. **Framework**: Una struttura di supporto per lo sviluppo di software che fornisce un insieme di librerie, strumenti e linee guida per semplificare lo sviluppo di applicazioni.
+
+24. **Thread**: Un flusso di esecuzione separato all'interno di un processo che può essere eseguito in modo concorrente con altri thread. I thread sono utilizzati per eseguire operazioni parallele e multitasking all'interno di un programma.
+
+25. **Debugging**: Il processo di individuazione, analisi e risoluzione degli errori o dei bug presenti in un programma software.
+
+26. **Version Control System (VCS)**: Un sistema che registra e gestisce le modifiche apportate al codice sorgente di un progetto software nel tempo, consentendo agli sviluppatori di collaborare e tenere traccia delle modifiche.
+
+27. **Repository**: Una directory o un archivio di dati che contiene il codice sorgente di un progetto software, insieme a informazioni sui cambiamenti, la storia e i metadati associati.
+
+28. **Libreria**: Una raccolta di funzioni, moduli o classi predefinite che possono essere utilizzate per estendere le funzionalità di un linguaggio di programmazione.
+
+29. **Algoritmo di ordinamento**: Un algoritmo utilizzato per organizzare una serie di elementi in ordine specifico, come numerico o alfabetico, secondo un certo criterio.
+
+30. **Architettura del software**: La struttura e l'organizzazione di un sistema software, inclusi i componenti, i moduli, le interfacce e le relazioni tra di essi, progettati per soddisfare i requisiti funzionali e non funzionali del sistema.
