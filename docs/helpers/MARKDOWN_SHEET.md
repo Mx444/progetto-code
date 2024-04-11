@@ -1,12 +1,10 @@
-# Spiegazione Markdown
+# Markdown
 Argomento: Markdown  
 Corso: Progetto CODE 2   
 Data: 10/04/2024  
 Francesco Serauto
-## 1.Markdown
-Markdown è un linguaggio di formattazione leggero e facile da usare per la scrittura di testo semplice con formattazione basilare. È comunemente utilizzato per formattare documenti, note, pagine web, README nei repository GitHub e molto altro ancora. Ecco una sintesi delle principali funzionalità di Markdown e della sua formattazione:
 
-## 2.Titoli
+## 1.Titoli
 
 ```
 # Titolo di livello 1
@@ -17,14 +15,14 @@ Markdown è un linguaggio di formattazione leggero e facile da usare per la scri
 ## Titolo di livello 2
 ### Titolo di livello 3
 
-## 3.Testo in grassetto e corsivo
+## 2.Testo in grassetto e corsivo
 ```
 **grassetto** o *corsivo*
 ```
 **grassetto** o *corsivo*
 
 
-## 4.Elenco puntato e numerato:
+## 3.Elenco puntato e numerato:
 ```
   - Elemento 1
   - Elemento 2
@@ -39,7 +37,7 @@ Markdown è un linguaggio di formattazione leggero e facile da usare per la scri
    2. Secondo elemento
  
 
-  ## 5.Link
+  ## 4.Link
     
 ```
  [Testo del link](https://www.example.com)
@@ -48,7 +46,7 @@ Markdown è un linguaggio di formattazione leggero e facile da usare per la scri
    [Testo del link](https://www.example.com)
    
 
-   ## 6.Immagini
+   ## 5.Immagini
 
 ```
 ![Testo alternativo](https://cdn-icons-png.flaticon.com/256/826/826118.png)
@@ -56,7 +54,7 @@ Markdown è un linguaggio di formattazione leggero e facile da usare per la scri
    ![Testo alternativo](https://cdn-icons-png.flaticon.com/256/826/826118.png)
 
 
-   ## 7.Citazioni
+   ## 6.Citazioni
    
   ```
    > Questo è un esempio di citazione.
@@ -64,14 +62,14 @@ Markdown è un linguaggio di formattazione leggero e facile da usare per la scri
    > Questo è un esempio di citazione.
   
 
-## 8.Backtick
+## 7.Backtick
 ```
 `Backtick`
 ```
 `Backtick`
 
 
-## 9.Tabelle
+## 8.Tabelle
   ```
    | Intestazione 1 | Intestazione 2 |
    | -------------- | -------------- |
