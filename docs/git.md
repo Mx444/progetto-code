@@ -43,10 +43,15 @@ git commit -m "commit" - (Salvare le modifiche)
 git branch -m branch - (Rinominare rami)
 git push -u origin (branch) - (Caricare file)
 
+<<<<<<< HEAD
 
 git log (Log modifiche)
 git reset hash (Reset versione file)
 git checkout nome_file /nome_del_branch - (Scartare modifica o cambiare branch)
+=======
+git pull origin (Scaricare info)
+git clone link (Clonare repository)
+>>>>>>> a0855e27c0969473589d16af275599fd7414a2e5
 git rm - (Rimuovere file dal repository)
 git clone URL - (Clonare)
 
