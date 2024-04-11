@@ -90,4 +90,4 @@ Francesco Serauto
 
 9. **Transazione**: Una sequenza di operazioni eseguite come un'unità atomica, che può essere confermata (commit) o annullata (rollback) in modo da mantenere la coerenza del database.
 
-10. **Trigger**: Una procedura automatizzata che viene eseguita in risposta a determinati eventi, come l'inserimento, l'aggiornamento o l'eliminazione di dati da una tabella. I trigger possono essere utilizzati per applicare logica aziendale complessa o mantenere l'integrità dei dati.
+10. **Trigger**: Una procedura automatizzata che viene eseguita in risposta a determinati eventi, come l'inserimento, l'aggiornamento o l'eliminazione di dati da una tabella. I trigger possono essere utilizzati per applicare logica aziendale complessa o mantenere l'integrità dei dati
