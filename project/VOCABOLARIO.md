@@ -1,65 +1,50 @@
 # Vocabolario
-Argomento: Termini   
+Argomento:  Vocabolario
 Corso: Progetto CODE 2   
 Data: 11/04/2024  
 Francesco Serauto
 
-1. **Algoritmo**: Una sequenza di istruzioni ben definite e ordinate che descrivono come risolvere un problema o eseguire una specifica attività. Gli algoritmi sono fondamentali nel campo della programmazione e dell'informatica in generale.
+# Markdown
 
-2. **Variabile**: Un'area di memoria che viene utilizzata per memorizzare e manipolare dati in un programma. Le variabili possono contenere diversi tipi di dati, come numeri, stringhe di testo, booleani, oggetti, e altro ancora. Sono essenziali per la gestione dei dati all'interno di un programma.
+1. **Markdown**: È un linguaggio di formattazione leggero utilizzato per formattare il testo in modo semplice utilizzando una sintassi di formattazione di testo semplice.
 
-3. **Ciclo**: Una struttura di controllo che consente di ripetere una serie di istruzioni più volte. I cicli sono utilizzati quando si desidera eseguire una determinata operazione per un numero specificato di volte o finché una condizione è soddisfatta.
+2. **Sintassi Markdown**: La sintassi Markdown si riferisce alle regole e alla struttura utilizzate per formattare il testo. Include elementi come asterischi per enfatizzare il testo (*corsivo*) o doppi asterischi per il testo in grassetto (**grassetto**).
 
-4. **Funzione**: Un blocco di codice autonomo che esegue una specifica operazione o calcolo. Le funzioni consentono di organizzare il codice in unità modulari, che possono essere richiamate da diverse parti del programma. Le funzioni possono accettare input, chiamati parametri, e restituire output. Sono fondamentali per la scrittura di codice pulito, leggibile e riutilizzabile.
+3. **Elementi di formattazione**: Sono i componenti utilizzati per formattare il testo, come asterischi per il corsivo, doppi asterischi per il grassetto, trattini per gli elenchi, ecc.
 
-5. **Array**: Una struttura dati che rappresenta una collezione ordinata di elementi dello stesso tipo. Gli elementi di un array sono accessibili tramite un indice numerico, che specifica la posizione dell'elemento all'interno dell'array.
+4. **Markup**: È il processo di aggiunta di formattazione al testo utilizzando la sintassi Markdown. Questo processo converte il testo scritto in Markdown in HTML.
 
-6. **Stringa**: Una sequenza di caratteri, come lettere, numeri o simboli, che viene trattata come un singolo oggetto. Le stringhe sono utilizzate per rappresentare testo nei programmi e possono essere manipolate e analizzate in varie modalità.
+5. **File Markdown**: È un file che contiene testo formattato utilizzando la sintassi Markdown. Questi file hanno generalmente estensioni come `.md` o `.markdown`.
 
-7. **Condizione (if)**: Una struttura di controllo che permette di eseguire istruzioni diverse in base al verificarsi o meno di una determinata condizione. Le istruzioni all'interno di un blocco condizionale (if) vengono eseguite solo se la condizione specificata è vera.
+6. **Estensione Markdown**: Sono strumenti o librerie aggiuntive che estendono le funzionalità del Markdown base. Queste estensioni possono aggiungere funzionalità come tabelle, note a piè di pagina, intestazioni avanzate, ecc.
 
-8. **Loop (iterazione)**: Una struttura di controllo che consente di eseguire ripetutamente un blocco di istruzioni finché una determinata condizione è soddisfatta. Ci sono diversi tipi di loop, come il loop while e il loop for, che offrono modi diversi per controllare il flusso del programma.
+7. **Rendering**: È il processo di visualizzazione del testo Markdown formattato in un formato leggibile, come HTML, utilizzando un interprete Markdown.
 
-9. **Metodo**: Una funzione associata a un oggetto o a una classe in programmazione orientata agli oggetti. I metodi sono utilizzati per definire il comportamento degli oggetti e possono accedere e manipolare i dati dell'oggetto stesso.
+8. **Editor Markdown**: È un'applicazione o uno strumento utilizzato per creare e modificare file Markdown. Alcuni editor offrono funzionalità aggiuntive come anteprime in tempo reale, suggerimenti di formattazione e conversione in altri formati.
 
-10. **Interfaccia di programmazione delle applicazioni (API)**: Un insieme di regole, protocolli e strumenti che consentono a diversi software di comunicare tra loro. Le API definiscono come le diverse componenti del software possono interagire e scambiare dati, consentendo l'integrazione di diverse applicazioni e servizi.
+9. **Interprete Markdown**: È un programma o una libreria che converte il testo Markdown in HTML o altri formati visualizzabili.
 
-11. **Classe**: Un modello o un prototipo per creare oggetti in programmazione orientata agli oggetti. Una classe definisce le caratteristiche (attributi) e i comportamenti (metodi) che gli oggetti di quel tipo possiedono.
+10. **Flusso di lavoro Markdown**: Si riferisce al processo di creazione, modifica e pubblicazione di contenuti utilizzando Markdown. Questo può includere la scrittura in un editor Markdown, la conversione in HTML e la pubblicazione su una piattaforma web.
 
-12. **Oggetto**: Un'istanza di una classe. Gli oggetti sono le unità fondamentali della programmazione orientata agli oggetti e rappresentano entità del mondo reale o astratte all'interno di un programma.
+# Git
 
-13. **Metodo di accesso (getter) e metodo di modifica (setter)**: Metodi di una classe utilizzati per accedere e modificare gli attributi privati di un oggetto. I metodi getter restituiscono il valore di un attributo, mentre i metodi setter modificano il valore di un attributo.
+1. **Repository (Repo)**: È il luogo dove vengono archiviati i file del progetto, insieme alla cronologia delle modifiche. Può essere locale sul tuo computer o remoto su un server.
 
-14. **Modulo**: Un file contenente codice sorgente che può essere importato e utilizzato in altri programmi. I moduli sono utilizzati per organizzare il codice in unità funzionali e riutilizzabili, migliorando la manutenibilità e la leggibilità del codice.
+2. **Commit**: Rappresenta una singola "istantanea" delle modifiche apportate ai file nel repository in un determinato momento. Ogni commit ha un messaggio che descrive le modifiche apportate.
 
-15. **Ricorsione**: Un'approccio di programmazione in cui una funzione si richiama se stessa per risolvere un problema più grande. La ricorsione è spesso utilizzata per risolvere problemi che possono essere suddivisi in sottoproblemi più piccoli.
+3. **Branch**: È un ramo separato della cronologia del codice. Consente di lavorare su nuove funzionalità o correzioni di bug senza influire direttamente sul ramo principale (solitamente denominato "master" o "main").
 
-16. **Pacchetto**: Una raccolta di moduli correlati che possono essere distribuiti e utilizzati insieme. I pacchetti consentono di organizzare e strutturare grandi progetti software in modo gerarchico, facilitando la gestione delle dipendenze e la distribuzione del codice.
+4. **Merge**: È il processo di combinazione dei cambiamenti da un ramo (ad esempio, una feature branch) in un altro (ad esempio, il ramo principale). Può essere effettuato tramite una "merge" normale o una "merge" con risoluzione dei conflitti.
 
-17. **Gestore di pacchetti**: Uno strumento utilizzato per installare, aggiornare e gestire pacchetti software all'interno di un sistema. I gestori di pacchetti semplificano il processo di gestione delle dipendenze e delle librerie all'interno di un progetto software.
+5. **Pull Request (PR)**: È una richiesta per integrare le modifiche apportate in un branch in un altro. È ampiamente utilizzato nei flussi di lavoro collaborativi, in cui un membro del team invia le proprie modifiche per la revisione prima di essere unite al ramo principale.
 
-18. **Debugging**: Il processo di individuazione e correzione degli errori all'interno di un programma. Gli strumenti di debugging consentono ai programmatori di tracciare l'esecuzione del programma, identificare e risolvere i bug.
+6. **Fork**: È una copia di un repository Git esistente che viene creata su un account personale. Consente di lavorare sul progetto in modo indipendente e di inviare successivamente le modifiche come Pull Request al repository originale.
 
-19. **Refactoring**: Il processo di riorganizzazione e miglioramento del codice sorgente senza modificare il suo comportamento esterno. Il refactoring è utilizzato per rendere il codice più pulito, leggibile e manutenibile, riducendo la complessità e migliorando la struttura del software.
+7. **Clone**: È il processo di creazione di una copia locale di un repository remoto sul tuo computer. Consente di lavorare sul progetto in modo locale senza influenzare direttamente il repository remoto.
 
-20. **Framework**: Una struttura di supporto su cui è possibile costruire e sviluppare applicazioni software. I framework forniscono un set di librerie, strumenti e linee guida che semplificano lo sviluppo di software, accelerando il processo di sviluppo e riducendo la necessità di scrivere codice da zero.
+8. **Remote**: Si riferisce a un repository Git che si trova su un server esterno. Può essere aggiunto come "remote" al repository locale per sincronizzare le modifiche.
 
-21. **Compilatore**: Un programma che traduce il codice sorgente scritto in un linguaggio di programmazione in un linguaggio macchina eseguibile dal computer.
+9. **Staging Area (Index)**: È uno spazio temporaneo in cui vengono preparate le modifiche prima di essere commesse nel repository. Consente di selezionare specifiche modifiche da includere nel prossimo commit.
 
-22. **Interprete**: Un programma che esegue istruzioni di codice sorgente direttamente senza la necessità di una fase di compilazione, interpretando e eseguendo le istruzioni una alla volta.
+10. **HEAD**: Rappresenta il punto attuale nella cronologia del repository. Solitamente punta al commit più recente nel branch corrente.
 
-23. **Framework**: Una struttura di supporto per lo sviluppo di software che fornisce un insieme di librerie, strumenti e linee guida per semplificare lo sviluppo di applicazioni.
-
-24. **Thread**: Un flusso di esecuzione separato all'interno di un processo che può essere eseguito in modo concorrente con altri thread. I thread sono utilizzati per eseguire operazioni parallele e multitasking all'interno di un programma.
-
-25. **Debugging**: Il processo di individuazione, analisi e risoluzione degli errori o dei bug presenti in un programma software.
-
-26. **Version Control System (VCS)**: Un sistema che registra e gestisce le modifiche apportate al codice sorgente di un progetto software nel tempo, consentendo agli sviluppatori di collaborare e tenere traccia delle modifiche.
-
-27. **Repository**: Una directory o un archivio di dati che contiene il codice sorgente di un progetto software, insieme a informazioni sui cambiamenti, la storia e i metadati associati.
-
-28. **Libreria**: Una raccolta di funzioni, moduli o classi predefinite che possono essere utilizzate per estendere le funzionalità di un linguaggio di programmazione.
-
-29. **Algoritmo di ordinamento**: Un algoritmo utilizzato per organizzare una serie di elementi in ordine specifico, come numerico o alfabetico, secondo un certo criterio.
-
-30. **Architettura del software**: La struttura e l'organizzazione di un sistema software, inclusi i componenti, i moduli, le interfacce e le relazioni tra di essi, progettati per soddisfare i requisiti funzionali e non funzionali del sistema.
