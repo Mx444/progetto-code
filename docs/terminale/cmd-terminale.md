@@ -1,5 +1,5 @@
 # Terminale
-Argomento: Comandi 
+Argomento: Comandi   
 Corso: Progetto CODE 2   
 Data: 10/04/2024  
 Francesco Serauto  

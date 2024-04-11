@@ -1,6 +1,6 @@
 
 # Inizializzare una repository 
-Argomento: git-init 
+Argomento: git-init   
 Corso: Progetto CODE 2   
 Data: 10/04/2024  
 Francesco Serauto  
