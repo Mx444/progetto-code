@@ -48,3 +48,46 @@ Francesco Serauto
 
 10. **HEAD**: Rappresenta il punto attuale nella cronologia del repository. Solitamente punta al commit più recente nel branch corrente.
 
+# Javascript
+
+1. **Variabile**: Un contenitore per memorizzare valori. Le variabili possono contenere qualsiasi tipo di dato, come numeri, stringhe, oggetti, funzioni, ecc.
+
+2. **Funzione**: Un blocco di codice che esegue un'azione specifica. Può essere definita e richiamata in qualsiasi punto del codice.
+
+3. **Array**: Una struttura dati che contiene una collezione ordinata di elementi, ognuno identificato da almeno un indice numerico.
+
+4. **Oggetto**: Una struttura dati complessa che rappresenta una collezione di proprietà, dove ogni proprietà ha un nome e un valore associato.
+
+5. **Metodo**: Una funzione associata a un oggetto che definisce il comportamento dell'oggetto stesso.
+
+6. **Classe**: Un modello per creare oggetti che definisce le proprietà e i comportamenti di quell'oggetto.
+
+7. **DOM (Document Object Model)**: Una rappresentazione ad albero dei nodi che compongono una pagina HTML. Il DOM è una API che permette di manipolare la struttura, lo stile e il contenuto di una pagina web.
+
+8. **Event Handler**: Una funzione che viene eseguita in risposta a un evento, come un click del mouse, un caricamento della pagina, ecc.
+
+9. **Callback**: Una funzione passata come argomento a un'altra funzione, che verrà chiamata in seguito al completamento di un'operazione asincrona o in risposta a un evento.
+
+10. **Promise**: Un oggetto che rappresenta il risultato di un'operazione asincrona che potrebbe avere successo o fallire in futuro, consentendo di gestire il suo completamento o il suo fallimento in modo ordinato.
+
+# PostgresSQL
+
+1. **Database**: Un'organizzazione strutturata di dati che viene utilizzata per archiviare e gestire informazioni. PostgreSQL supporta la creazione di più database all'interno di un'istanza del server.
+
+2. **Schema**: Una raccolta di oggetti database, come tabelle, viste, indici, funzioni, ecc., che definisce la struttura logica dei dati nel database.
+
+3. **Tabella**: Una struttura dati organizzata in righe e colonne che rappresenta una raccolta di dati correlati. Ogni tabella ha un nome univoco e una serie di colonne con tipi di dati definiti.
+
+4. **Colonna**: Una singola unità di dati all'interno di una tabella. Ogni colonna ha un nome, un tipo di dato e altre proprietà come la nullabilità o i vincoli di chiave.
+
+5. **Vincolo (Constraint)**: Una regola definita per una colonna o una tabella che impone determinate condizioni sui dati, come la chiave primaria, la chiave esterna, l'unicità, ecc.
+
+6. **Indice**: Una struttura dati utilizzata per migliorare le prestazioni delle query identificando rapidamente le righe all'interno di una tabella.
+
+7. **Query**: Una richiesta di dati o operazioni eseguita sul database utilizzando il linguaggio SQL (Structured Query Language).
+
+8. **Join**: Un'operazione utilizzata per combinare dati da due o più tabelle in base a una relazione definita tra di esse.
+
+9. **Transazione**: Una sequenza di operazioni eseguite come un'unità atomica, che può essere confermata (commit) o annullata (rollback) in modo da mantenere la coerenza del database.
+
+10. **Trigger**: Una procedura automatizzata che viene eseguita in risposta a determinati eventi, come l'inserimento, l'aggiornamento o l'eliminazione di dati da una tabella. I trigger possono essere utilizzati per applicare logica aziendale complessa o mantenere l'integrità dei dati.
