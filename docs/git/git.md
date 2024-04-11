@@ -4,7 +4,7 @@ Corso: Progetto CODE 2
 Data: 10/04/2024  
 Francesco Serauto  
 
-## 1.Git 
+# Git 
 **Git** è un sistema di controllo delle versioni distribuito, progettato per gestire progetti di qualsiasi dimensione con velocità ed efficienza. Ecco come funziona
 
 1. **Repository**: In Git, un repository è una raccolta di file che costituiscono il progetto. Questo include il codice sorgente, la documentazione, i file di configurazione e altro ancora. Un repository Git può essere ospitato localmente sul tuo computer o su un server remoto.
@@ -24,44 +24,4 @@ Francesco Serauto
 8. **Rami remoti**: Oltre ai branch locali, Git consente di tenere traccia dei branch remoti, che sono versioni dei branch ospitati su un repository remoto. Puoi sincronizzare i branch locali con i branch remoti per condividere il lavoro con altri membri del team.
 
 Questi sono solo alcuni concetti fondamentali di Git. È un sistema molto potente e flessibile che offre molte altre funzionalità per gestire progetti software in modo efficiente.
-
-## 2.Configura il tuo nome utente e indirizzo email
-
-   ``` 
-   git config --global user.name "Your Name"
-   git config --global user.email "your.email@example.com"
-   ```
-
-## 3.Comandi Git
-
-``` bash
-git init - (Inizializza un repository locale)
-git remote add origin link - (Collega il repository locale al repository remoto)
-git status - (Stato del repository locale)
-git add "file" - (Aggiungere modifiche)
-git commit -m "commit" - (Salvare le modifiche)
-git branch -m branch - (Rinominare rami)
-git push -u origin (branch) - (Caricare file)
-
-
-git log (Log modifiche)
-git reset hash (Reset versione file)
-git checkout nome_file /nome_del_branch - (Scartare modifica o cambiare branch)
-git rm - (Rimuovere file dal repository)
-git clone URL - (Clonare)
-
- ```
-
-## 3.Comandi Terminale
-
-``` bash
-cd: Cambia directory
-cd ..: Sposta la directory corrente al livello superiore.
-cd ~: Sposta la directory corrente nella tua home directory.
-
-ls: Elenco il contenuto della directory corrente.
-ls -l: Elenco dettagliato del contenuto della directory con informazioni
-ls -a: Elenco di tutti i file, inclusi quelli nascosti.
-
-```
 

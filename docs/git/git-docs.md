@@ -58,5 +58,5 @@ git pull repository_remoto ramo_remoto
  ## 11.Merge
 ** viene utilizzato per unire i cambiamenti da un'altra branch nel branch corrente del repository**
  ``` bash
-git merge <branch_da_unire>
+git merge branch_da_unire
    ```
