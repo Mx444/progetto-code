@@ -27,7 +27,7 @@ Questi sono solo alcuni concetti fondamentali di Git. È un sistema molto potent
 
 ## 2.Configura il tuo nome utente e indirizzo email
 
-   ``` bash
+   ``` 
    git config --global user.name "Your Name"
    git config --global user.email "your.email@example.com"
    ```
@@ -40,12 +40,16 @@ git remote add origin link - (Collega il repository locale al repository remoto)
 git status - (Stato del repository locale)
 git add "file" - (Aggiungere modifiche)
 git commit -m "commit" - (Salvare le modifiche)
-git branch -m branch - (Gestire i rami)
+git branch -m branch - (Rinominare rami)
 git push -u origin (branch) - (Caricare file)
 
+
+git log (Log modifiche)
+git reset hash (Reset versione file)
+git checkout nome_file /nome_del_branch - (Scartare modifica o cambiare branch)
 git rm - (Rimuovere file dal repository)
 git clone URL - (Clonare)
-git checkout nome_del_branch - (Cambiare branch)
+
  ```
 
 ## 3.Comandi Terminale
