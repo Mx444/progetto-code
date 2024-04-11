@@ -1,4 +1,8 @@
-
+# Vocabolario
+Argomento: Termini   
+Corso: Progetto CODE 2   
+Data: 11/04/2024  
+Francesco Serauto
 
 1. **Algoritmo**: Una sequenza di istruzioni ben definite e ordinate che descrivono come risolvere un problema o eseguire una specifica attività. Gli algoritmi sono fondamentali nel campo della programmazione e dell'informatica in generale.
 
