@@ -1,4 +1,4 @@
-![](https://i.ibb.co/gzzZ8nM/markdown.png)
+![alt](https://i.ibb.co/gzzZ8nM/markdown.png)
 
 ## Intestazioni
 

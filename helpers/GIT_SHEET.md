@@ -1,4 +1,4 @@
-![](https://i.ibb.co/mDcVL6Z/Git.png)
+![alt](https://i.ibb.co/mDcVL6Z/Git.png)
 
 ### Configurazione
 

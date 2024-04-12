@@ -1,4 +1,4 @@
-![](https://i.ibb.co/q1yM3Dc/Header-Template-Recuperato.png)
+![alt](https://i.ibb.co/q1yM3Dc/Header-Template-Recuperato.png)
 
 ### Gestione dei file e delle directory
 

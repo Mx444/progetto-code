@@ -1,4 +1,4 @@
-![](https://i.ibb.co/bBSkdYh/vocabolario.png)
+![alt](https://i.ibb.co/bBSkdYh/vocabolario.png)
 
 # Obfuscation
 
