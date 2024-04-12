@@ -1,11 +1,11 @@
-![](https://i.ibb.co/tDBDVQm/domande.png)
+![alt](https://i.ibb.co/tDBDVQm/domande.png)
 Argomento: Domande Basi GPT  
-Corso: Progetto CODE 2   
+Corso: Progetto CODE 2
 Data: 09/04/2024  
 Francesco Serauto ,Valerio Còlibro , Gabriele Lo Re
 
- 
- ## 1.Cosa si intende per Back-End?
+## 1.Cosa si intende per Back-End?
+
  Il termine "Back-End" si riferisce alla parte di un'applicazione o di un sistema informatico che si occupa del trattamento dei dati, della logica di business e dell'elaborazione delle richieste provenienti dall'utente. È la parte "dell'ombra" del sistema, invisibile agli utenti finali, che gestisce il funzionamento interno di un'applicazione.
 
 Le principali caratteristiche del Back-End includono:
@@ -23,6 +23,7 @@ Le principali caratteristiche del Back-End includono:
 In sintesi, il Back-End costituisce il motore invisibile di un'applicazione, gestendo l'elaborazione dei dati, la logica di business e la comunicazione con il Front-End per fornire un'esperienza utente completa e funzionale.
 
 ## 2.Differenza Front/Back End
+
 La differenza tra Front-End e Back-End è fondamentale per comprendere come funzionano le applicazioni web e software. Ecco una breve sintesi delle differenze:
 
 1. **Front-End**:
@@ -40,6 +41,7 @@ La differenza tra Front-End e Back-End è fondamentale per comprendere come funz
 In sintesi, il Front-End si concentra sull'aspetto visivo e interattivo di un'applicazione, mentre il Back-End si occupa dell'elaborazione dei dati e della logica di business che supporta l'esperienza utente. Entrambi collaborano insieme per creare un'applicazione completa e funzionale.
 
 ## 3.Cosa è Javascript?
+
 JavaScript è un linguaggio di programmazione ad alto livello, interpretato e orientato agli oggetti utilizzato principalmente per aggiungere interattività e dinamicità alle pagine web. Ecco una breve sintesi su JavaScript:
 
 1. **Interattività web**: JavaScript è ampiamente utilizzato per aggiungere interattività alle pagine web, consentendo agli sviluppatori di creare elementi come animazioni, moduli di input dinamici, bottoni cliccabili e molto altro ancora.
@@ -55,6 +57,7 @@ JavaScript è un linguaggio di programmazione ad alto livello, interpretato e or
 In sintesi, JavaScript è un linguaggio di programmazione versatile e potente utilizzato per aggiungere interattività e dinamicità alle pagine web, nonché per lo sviluppo di applicazioni web, desktop e mobili. La sua ampia adozione e la sua crescente comunità lo rendono uno strumento essenziale per gli sviluppatori web moderni.
 
 ## 4.Cosa è Node.JS?
+
 Node.js è un runtime JavaScript open-source basato sul motore JavaScript V8 di Google Chrome. Ecco una breve sintesi su Node.js:
 
 1. **Runtime JavaScript lato server**: Node.js consente agli sviluppatori di eseguire JavaScript lato server, consentendo loro di scrivere applicazioni web completamente in JavaScript. Questo rompe la tradizionale distinzione tra lato client e lato server, consentendo agli sviluppatori di utilizzare lo stesso linguaggio su entrambi i lati.
@@ -70,6 +73,7 @@ Node.js è un runtime JavaScript open-source basato sul motore JavaScript V8 di 
 In sintesi, Node.js è un runtime JavaScript potente e flessibile che consente agli sviluppatori di scrivere applicazioni server-side efficienti e scalabili utilizzando JavaScript. La sua natura non bloccante e orientata agli eventi lo rende ideale per applicazioni ad alte prestazioni e ad alta concorrenza.
 
 ## 4.Cosa è Node.JS?
+
 Node.js è un runtime JavaScript open-source basato sul motore JavaScript V8 di Google Chrome. Ecco una breve sintesi su Node.js:
 
 1. **Runtime JavaScript lato server**: Node.js consente agli sviluppatori di eseguire JavaScript lato server, consentendo loro di scrivere applicazioni web completamente in JavaScript. Ciò elimina la distinzione tradizionale tra il lato client e il lato server.
@@ -85,6 +89,7 @@ Node.js è un runtime JavaScript open-source basato sul motore JavaScript V8 di 
 In sintesi, Node.js è un runtime JavaScript potente e flessibile che consente agli sviluppatori di scrivere applicazioni server-side efficienti e scalabili utilizzando JavaScript. La sua natura event-driven e non bloccante lo rende ideale per applicazioni ad alte prestazioni e ad alta concorrenza.
 
 ## 5.In che modo Node.JS fa funzionare JavaScript nel back-end?
+
 Node.js consente di eseguire JavaScript lato server, consentendo agli sviluppatori di scrivere applicazioni back-end utilizzando JavaScript. Ecco come Node.js fa funzionare JavaScript nel back-end:
 
 1. **Runtime JavaScript**: Node.js è un runtime JavaScript che esegue il codice JavaScript sul server. Utilizza il motore JavaScript V8 di Google Chrome per interpretare ed eseguire il codice JavaScript.
@@ -98,6 +103,7 @@ Node.js consente di eseguire JavaScript lato server, consentendo agli sviluppato
 5. **Utilizzo versatile**: Node.js è utilizzato per lo sviluppo di una varietà di applicazioni back-end, tra cui applicazioni web, API RESTful, servizi back-end, applicazioni real-time, server di gioco e molto altro ancora. La sua flessibilità e la sua ampia adozione lo rendono uno strumento potente per gli sviluppatori che desiderano utilizzare JavaScript sia lato client che lato server.
 
 ## 6.Cosa è un database?
+
 Un database è un sistema organizzato per la raccolta, la gestione e la memorizzazione strutturata di dati. Ecco una sintesi su cosa è un database:
 
 1. **Raccolta di dati**: Un database è un insieme di dati organizzati in modo strutturato, che possono essere di diversi tipi, come testo, numeri, immagini o altri formati.
@@ -115,6 +121,7 @@ Un database è un sistema organizzato per la raccolta, la gestione e la memorizz
 In sintesi, un database è un sistema organizzato per la gestione e la memorizzazione strutturata di dati, garantendo l'affidabilità, l'integrità e l'efficienza nell'accesso e nella manipolazione dei dati. È essenziale in una vasta gamma di applicazioni, dall'e-commerce alla gestione delle risorse umane, ai social media e molto altro ancora.
 
 ## 7.Cosa è MySQL?
+
 MySQL è un sistema di gestione di database relazionali (RDBMS) open-source ampiamente utilizzato. È uno dei database relazionali più popolari al mondo ed è utilizzato da molte aziende e sviluppatori per gestire i dati in modo affidabile e efficiente.
 
 Ecco alcune caratteristiche principali di MySQL:
@@ -132,6 +139,7 @@ Ecco alcune caratteristiche principali di MySQL:
 MySQL è utilizzato in una vasta gamma di applicazioni, tra cui siti web dinamici, applicazioni web, applicazioni aziendali, applicazioni mobile e molto altro ancora. È una scelta popolare per progetti di tutte le dimensioni grazie alla sua affidabilità, performance e facilità d'uso.
 
 ## 8.Cosa è una Query?
+
 Una query è una richiesta o una domanda specifica che viene formulata per recuperare dati da un database. In termini più tecnici, una query è un'istruzione scritta in un linguaggio di interrogazione, come SQL (Structured Query Language), che specifica i criteri per recuperare dati specifici da una tabella o più tabelle all'interno di un database.
 
 Ecco alcuni concetti chiave relativi alle query:
@@ -147,6 +155,7 @@ Ecco alcuni concetti chiave relativi alle query:
 Le query sono uno strumento fondamentale per l'interazione con i database e sono utilizzate in una vasta gamma di applicazioni, dalla creazione di report e analisi dei dati alla gestione di dati transazionali e operazioni di aggiornamento dei dati. La capacità di scrivere e comprendere le query è una competenza essenziale per gli sviluppatori e gli amministratori di database.
 
 ## 8.Cosa è PostgreSQL?
+
 PostgreSQL è un sistema di gestione di database relazionale (RDBMS) open-source, altamente affidabile e potente. Ecco una sintesi su PostgreSQL:
 
 1. **Database relazionale**: PostgreSQL è un RDBMS, il che significa che organizza i dati in tabelle relazionali composte da righe e colonne. Supporta il linguaggio SQL (Structured Query Language) per interrogare e manipolare i dati.
@@ -164,6 +173,7 @@ PostgreSQL è un sistema di gestione di database relazionale (RDBMS) open-source
 In sintesi, PostgreSQL è un sistema di gestione di database relazionale open-source altamente affidabile, robusto e estensibile, adatto per una vasta gamma di applicazioni e carichi di lavoro. La sua ampia adozione e la sua ricca funzionalità lo rendono una scelta popolare tra gli sviluppatori e le organizzazioni.
 
 ## 9.Qual è la differenza tra PostGreSQL e MySQL?
+
 PostgreSQL e MySQL sono entrambi sistemi di gestione di database relazionali (RDBMS) open-source, ma ci sono alcune differenze significative tra di loro che possono influenzare la scelta di uno rispetto all'altro. Ecco alcune delle differenze principali:
 
 1. **Licenza e sviluppo**: PostgreSQL è rilasciato con licenza open-source (PostgreSQL License), mentre MySQL è distribuito con una doppia licenza: la versione open-source (GNU General Public License, GPL) e una versione commerciale (MySQL Commercial License) con funzionalità aggiuntive. Questa differenza può essere importante per le organizzazioni che richiedono determinate licenze per l'uso del software.
@@ -179,6 +189,7 @@ PostgreSQL e MySQL sono entrambi sistemi di gestione di database relazionali (RD
 In sintesi, la scelta tra PostgreSQL e MySQL dipende dalle esigenze specifiche del progetto, dalle preferenze personali e dalle considerazioni relative alla licenza e al supporto. Entrambi sono database robusti e affidabili, e la scelta migliore dipenderà dalla situazione e dalle esigenze specifiche dell'applicazione o dell'organizzazione.
 
 ## 10.Cosa è ReactJS?
+
 React.js, spesso abbreviato come React, è una libreria JavaScript open-source per la creazione di interfacce utente (UI) dinamiche e interattive. È sviluppata e mantenuta da Facebook e da una vasta comunità di sviluppatori.
 
 Ecco alcune caratteristiche principali di React.js:
@@ -198,6 +209,7 @@ Ecco alcune caratteristiche principali di React.js:
 React.js è ampiamente utilizzato per lo sviluppo di applicazioni web moderne, single-page applications (SPA), applicazioni mobili e molto altro ancora. La sua flessibilità, la sua performance e la sua ampia adozione nella comunità lo rendono uno strumento popolare per gli sviluppatori che cercano di creare esperienze utente ricche e coinvolgenti.
 
 ## 11.Cosa è una Single-Page Applications (SPA)?
+
 Una single-page application (SPA) è un tipo di applicazione web che funziona all'interno di una singola pagina web, senza la necessità di ricaricare la pagina durante l'interazione dell'utente. In una SPA, il contenuto dinamico viene caricato e aggiornato in modo asincrono, generalmente utilizzando JavaScript, senza che l'utente debba navigare su diverse pagine web separate.
 
 Ecco alcune caratteristiche chiave delle single-page applications:
@@ -215,6 +227,7 @@ Ecco alcune caratteristiche chiave delle single-page applications:
 Alcuni esempi comuni di single-page applications includono Gmail, Google Maps e Facebook. Le SPA sono popolari per la creazione di applicazioni web moderne e ricche di funzionalità, offrendo una user experience simile a quella delle applicazioni desktop tradizionali.
 
 ## 12.Cosa è GitHub?
+
 GitHub è una piattaforma di hosting per lo sviluppo collaborativo di software utilizzando il sistema di controllo versione Git. È uno dei servizi più popolari per la condivisione e la collaborazione su progetti software open-source e privati.
 
 Ecco alcune caratteristiche principali di GitHub:
@@ -234,6 +247,7 @@ Ecco alcune caratteristiche principali di GitHub:
 GitHub è diventato uno standard de facto per lo sviluppo di software open-source e privato, offrendo una piattaforma completa e ricca di funzionalità per la gestione dei progetti, la collaborazione e la condivisione del codice.
 
 ## 13.Cosa è Git?
+
 Git è un sistema di controllo versione distribuito utilizzato per tenere traccia delle modifiche apportate ai file all'interno di un progetto software. È stato creato da Linus Torvalds nel 2005 per gestire lo sviluppo del kernel Linux, ma è diventato rapidamente uno degli strumenti più diffusi per lo sviluppo di software in generale.
 
 Ecco alcune caratteristiche chiave di Git:
@@ -253,6 +267,7 @@ Ecco alcune caratteristiche chiave di Git:
 In sintesi, Git è uno strumento fondamentale per lo sviluppo di software che fornisce un modo efficiente, veloce e affidabile per gestire le modifiche al codice sorgente all'interno di un progetto.
 
 ## 14.Cosa è gist su GitHub?
+
 I Gist su GitHub sono un modo per condividere rapidamente e facilmente frammenti di codice, snippet, note o qualsiasi altro tipo di testo con altre persone. I Gist sono repository Git minimi che possono contenere uno o più file di codice, testo formattato o anche immagini.
 
 Ecco alcune caratteristiche principali dei Gist su GitHub:
@@ -270,6 +285,7 @@ Ecco alcune caratteristiche principali dei Gist su GitHub:
 In sintesi, i Gist su GitHub sono uno strumento utile per condividere rapidamente e facilmente frammenti di codice, snippet e altri tipi di contenuto con altri sviluppatori e membri della comunità. Sono un modo efficace per condividere conoscenze, collaborare su progetti e ottenere feedback sulla propria programmazione.
 
 ## 15.Cosa è Stackoverflow?
+
 Stack Overflow è una delle più grandi comunità online di sviluppatori di software, dove gli sviluppatori possono porre domande, rispondere a domande altrui, condividere conoscenze e collaborare su problemi di programmazione e sviluppo software. Fondata nel 2008 da Jeff Atwood e Joel Spolsky, Stack Overflow è diventata una risorsa fondamentale per gli sviluppatori di tutto il mondo.
 
 Ecco alcune caratteristiche principali di Stack Overflow:
@@ -287,6 +303,7 @@ Ecco alcune caratteristiche principali di Stack Overflow:
 In sintesi, Stack Overflow è una risorsa preziosa per gli sviluppatori di software, offrendo una piattaforma per porre domande, condividere conoscenze e collaborare con altri membri della comunità per risolvere problemi di programmazione e sviluppo software.
 
 ## 16.Quali altri linguaggi di programmazione ci sono oltre a SQL nell'ambito dei database?
+
 Oltre a SQL, ci sono diversi linguaggi di programmazione utilizzati nell'ambito dei database per sviluppare applicazioni, creare stored procedure, definire trigger e altro ancora. Ecco alcuni esempi:
 
 1. **PL/SQL**: PL/SQL (Procedural Language/SQL) è un linguaggio di programmazione utilizzato principalmente con Oracle Database. È una estensione del linguaggio SQL che consente di scrivere procedure, funzioni e blocchi di codice per l'elaborazione dei dati all'interno del database.
