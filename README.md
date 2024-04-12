@@ -4,6 +4,7 @@
 <br><br>
 
 # Progetto CODE
+
 l progetto è stato selezionato dal Fondo per la Repubblica Digitale – Impresa sociale.
 Il Fondo per la Repubblica Digitale è nato da una partnership tra pubblico e privato sociale (Governo e Associazione di Fondazioni e di Casse di risparmio – Acri) e, in via sperimentale per gli anni 2022-2026, stanzia un totale di circa 350 milioni di euro. È alimentato da versamenti effettuati dalle Fondazioni di origine bancaria. L’obiettivo è accrescere le competenze digitali e sviluppare la transizione digitale del Paese. Per attuare i programmi del Fondo – che si muove nell’ambito degli obiettivi di digitalizzazione previsti dal PNRR (Piano Nazionale di Ripresa e Resilienza) e dall’FNC (Fondo Nazionale Complementare) – a maggio 2022 è nato il Fondo per la Repubblica Digitale – Impresa sociale, organizzazione senza scopo di lucro interamente partecipata da Acri.
 <div align="center">
@@ -12,11 +13,13 @@ Il Fondo per la Repubblica Digitale è nato da una partnership tra pubblico e pr
 <br><br>
 
 # Back end Developer
+
 Il back-end developer è l’architetto dietro le quinte del mondo digitale.
 Questa figura si occupa di realizzare tutte quelle strutture e funzionalità che rendono possibile l’interazione degli utenti con le applicazioni web e i servizi online che, probabilmente, utilizzi ogni giorno.
 In breve: tutto quello che oggi è possibile fare online, è supportato dal lavoro dei programmatori back-end.
 
 # Front end Developer
+
 Se il back-end developer lavora nel backstage, il programmatore front-end è la figura che plasma l’aspetto del web.
 
 In poche parole, il front-end developer si occupa di creare l’output visivo, l’interfaccia utente e l’esperienza interattiva delle applicazioni digitali. Ogni colore, pulsante, layout e interazione è frutto di un’attenta scelta da parte del programmatore front-end.
@@ -32,9 +35,10 @@ In poche parole, il front-end developer si occupa di creare l’output visivo, l
 <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/29fd6286-4e7b-4d6c-818f-c4765d5e39a9" width="100">
 <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/67f477ed-6624-42da-99f0-1a7b1a16eecb" width="100">
 </div>
-<br><br>    
+<br><br>
 
 # I partner
+
 Grazie alla sinergia dei partner di progetto, la nostra didattica anticipa le tendenze future, si avvale di una didattica taylor made in grado di accompagnarti dalle basi fino a competenze avanzate attraverso metodologie innovative.
 
 <div align="center">

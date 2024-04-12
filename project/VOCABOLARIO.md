@@ -1,6 +1,5 @@
 ![](https://i.ibb.co/bBSkdYh/vocabolario.png)
 
-
 # Obfuscation
 
 - **Oscuramento del codice**: Il processo di modifica del codice sorgente o del bytecode di un programma al fine di renderlo più difficile da comprendere o analizzare, senza cambiare la sua funzionalità.
