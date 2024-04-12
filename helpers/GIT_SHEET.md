@@ -1,132 +1,60 @@
-# Git comandi 
-Argomento: Git comandi  
-Corso: Progetto CODE 2   
-Data: 11/04/2024  
-Francesco Serauto  
+![](https://i.ibb.co/mDcVL6Z/Git.png)
+### Configurazione:
+- `git config`: Impostare le configurazioni di Git come nome utente, email, alias, ecc.
+- `git config --global user.name "Nome"`: Impostare il nome utente a livello globale.
+- `git config --global user.email "email@example.com"`: Impostare l'email utente a livello globale.
+- `git config --global core.editor "editor"`: Impostare l'editor predefinito per i messaggi di commit.
+- `git config --global alias.<alias-name> "<git-command>"`: Creare alias per comandi Git frequentemente utilizzati.
 
-# 1.Inizializzare una repository 
+### Inizializzazione e clonazione:
+- `git init`: Inizializzare un nuovo repository Git nella directory corrente.
+- `git clone <url>`: Clonare un repository Git esistente.
 
-**Cartella da inizializzare**
-``` bash
-cd /percorso/cartella
-   ```
-   **inizializzare una nuova repository Git all'interno di una directory esistente**
-   ``` bash
-git init
-   ```
+### Gestione dei cambiamenti:
+- `git add <file>`: Aggiunge file al staging area.
+- `git add .`: Aggiunge tutti i file modificati nella directory corrente allo staging area.
+- `git add -p`: Aggiunge in modo interattivo solo alcune parti di un file allo staging area.
+- `git commit -m "messaggio"`: Committa i cambiamenti nello staging area nel repository.
+- `git commit --amend`: Modifica l'ultimo commit aggiungendo nuove modifiche o modificando il messaggio di commit.
+- `git status`: Mostra lo stato dei file nel repository.
+- `git diff`: Mostra le differenze tra il working directory e lo staging area.
+- `git diff --cached`: Mostra le differenze tra lo staging area e l'ultimo commit.
+- `git checkout -- <file>`: Annulla le modifiche non commesse a un file nel working directory.
+- `git log -p <file>`: Mostra la history dei commit per un file specifico insieme alle modifiche apportate in ciascun commit.
+- `git mv <file_originale> <file_destinazione>`: Sposta o rinomina un file e gestisce le modifiche in Git.
+- `git rm <file>`: Rimuove un file dal repository Git e lo elimina dalla directory di lavoro.
+- `git restore <file>`: Ripristina file dallo staging area o dal commit precedente.
 
-## 2.Configura il tuo nome utente e indirizzo email
+### Branching e merging:
+- `git branch`: Elencare, creare o eliminare branch.
+- `git branch <nome_branch>`: Creare un nuovo branch con il nome specificato.
+- `git branch -d <branch>`: Eliminare un branch locale.
+- `git push origin --delete <branch>`: Eliminare un branch remoto.
+- `git branch -m <old-branch> <new-branch>`: Rinominare un branch.
+- `git checkout <branch>`: Passare tra branch o ripristinare file dalla history.
+- `git checkout -b <new-branch>`: Creare un nuovo branch e passarci immediatamente.
+- `git merge <branch>`: Unire i cambiamenti di un branch in un altro.
+- `git merge --abort`: Annullare un merge in corso e ripristinare lo stato precedente.
+- `git rebase <branch>`: Riapplicare i commit di un branch su un altro.
 
-**Impostare user-email**
-   ``` bash
-   git config --global user.name "Nome GitHub"
-   git config --global user.email "Email GitHub"
-   ```
-## 3.Repository remoto
+### Sincronizzazione con il repository remoto:
+- `git fetch`: Recuperare i commit dal repository remoto senza integrarli.
+- `git pull`: Estrarre e integrare i cambiamenti dal repository remoto nella branch corrente.
+- `git push`: Caricare i commit locali sul repository remoto.
 
-**Collegare il repository remoto**
+### Ricerca e visualizzazione della history:
+- `git log`: Visualizzare la history dei commit.
+- `git show <commit>`: Visualizzare i dettagli di un commit specifico.
+- `git blame <file>`: Visualizzare l'ultimo commit che ha modificato ciascuna linea di un file.
+- `git grep <testo>`: Cercare testo nei file del repository.
 
- ``` bash
-git remote add origin URL_del_repository_remoto
-   ```  
+### Gestione dei conflitti:
+- `git status`: Mostrare lo stato del repository, inclusi eventuali conflitti.
+- `git merge <branch>`: Unire i cambiamenti di un branch in un altro e risolvere i conflitti.
+- `git mergetool`: Utilizzare uno strumento grafico per risolvere i conflitti di merge.
 
-## 4.File al repository  
-
-**Aggiungere file al repository**  
-
-**File singolo**  
- ```   
-git add "file"  
-   ```  
-
-**Tutti i file modificati**  
-
-``` bash  
-git add .  
-git add * 
-   ```  
-
-## 5.Commit
-**Eseguire il primo commit**
-
- ``` bash
-git commit -m "first commit"
-
-
-   ```
-   *-m = message*  
-
-   **Sostituisci "first commit" con un messaggio significativo che descriva le modifiche apportate.**  
-  
-## 6.Push
-**Pushare il file da locale a remoto**
-
- ``` bash
-git push -u origin master
-
-   ```
-   *-u = upstream*  
-   *origin = repository remoto*  
-   *master = collegamento al branch master*  
-
-# Comandi Git
-
-## 1.Status
-**tenere traccia delle modifiche nel tuo repository e per capire quali passaggi devi eseguire successivamente**
- ``` bash
-git status
-   ```
-
-## 2.Branch
-**viene utilizzato per rinominare un ramo locale esistente.**
- ``` bash
-git branch -m nome_vecchio_ramo nome_nuovo_ramo
-   ```
- ## 3.Checkout branch
-**viene utilizzato principalmente per spostarsi tra i rami esistenti nel repository**
- ``` bash
-git checkout branch
-   ```
-**iene utilizzato per creare un nuovo ramo (branch) e passare immediatamente a quel ramo**
- ``` bash
-git checkout -b branch
-   ```
-   ## 5.Log
-**visualizzare la cronologia dei commit nel repository**
- ``` bash
-git log
-   ```
-
-   ## 6.Reset
-**Può essere utilizzato per "riportare indietro" le modifiche del repository a uno stato precedente**
- ``` bash
-git reset hash_commit
-   ```
-
-## 7.Checkout file
-**viene utilizzato per ripristinare un file specifico nella tua directory di lavoro alla sua ultima versione commitata nel repository**
- ``` bash
-git checkout file
-   ```
- ## 8.Rimuovere
-**viene utilizzato per rimuovere file dalla tua area di lavoro e dal repository**
- ``` bash
-git rm nome_file
-   ```
-
-## 9.Clona
-**viene utilizzato per creare una copia locale di un repository Git esistente**
- ``` bash
-git clone URL_del_repository
-   ```
-
- ## 10.Pull
-** viene utilizzato per recuperare i commit dal repository remoto e unire (merge) automaticamente qualsiasi cambiamento nel branch locale corrente**
- ``` bash
-git pull repository_remoto ramo_remoto
-   ```
- ## 11.Merge
-** viene utilizzato per unire i cambiamenti da un'altra branch nel branch corrente del repository**
- ``` bash
-git merge branch_da_unire
-   ```
+### Altro:
+- `git stash`: Nascondere le modifiche non commesse per utilizzarle in seguito.
+- `git tag <nome>`: Etichettare un commit con un nome significativo.
+- `git remote -v`: Mostrare i repository remoti configurati.
+- `git fetch --all`: Recuperare tutti i riferimenti dal repository remoto.

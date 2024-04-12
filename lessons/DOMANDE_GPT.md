@@ -1,4 +1,4 @@
-# Domande GPT
+![](https://i.ibb.co/tDBDVQm/domande.png)
 Argomento: Domande Basi GPT  
 Corso: Progetto CODE 2   
 Data: 09/04/2024  

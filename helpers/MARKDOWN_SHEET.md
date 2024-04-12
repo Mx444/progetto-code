@@ -1,82 +1,40 @@
-# Markdown
-Argomento: Markdown  
-Corso: Progetto CODE 2   
-Data: 10/04/2024  
-Francesco Serauto
+![](https://i.ibb.co/gzzZ8nM/markdown.png)
 
-## 1.Titoli
-
+## Intestazioni
 ```
-# Titolo di livello 1
-## Titolo di livello 2
-### Titolo di livello 3
+# Intestazione 1
+## Intestazione 2
+### Intestazione 3
 ```
-# Titolo di livello 1
-## Titolo di livello 2
-### Titolo di livello 3
 
-## 2.Testo in grassetto e corsivo
+## Formattazione del testo
+- **Grassetto**: `**testo in grassetto**`
+- *Corsivo*: `*testo in corsivo*`
+- ~~Barrato~~: `~~testo barrato~~`
+- `Codice`: Utilizzare backtick (\`) per racchiudere il testo come \`codice\`.
+
+## Liste
+- **Elenco puntato**: `* Elemento 1`
+- **Elenco numerato**: `1. Elemento 1`
+
+## Link e immagini
+- **Link**: `[Testo del link](URL)`
+- **Immagine**: `![Testo alternativo](URL dell'immagine)`
+
+## Citazioni e blocchi di codice
+- **Citazioni**: `> Questa è una citazione.`
+- **Blocchi di codice**: Utilizzare tre backtick (\`\`\`) per creare blocchi di codice.
+
+## Tabelle
 ```
-**grassetto** o *corsivo*
+| Header 1 | Header 2 |
+| -------- | -------- |
+| Cella 1  | Cella 2  |
+| Cella 3  | Cella 4  |
 ```
-**grassetto** o *corsivo*
 
+## Ulteriori informazioni
+- [Guida Markdown di GitHub](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+- [Sintassi Markdown completa](https://www.markdownguide.org/basic-syntax/)
 
-## 3.Elenco puntato e numerato:
-```
-  - Elemento 1
-  - Elemento 2
-
-   1. Primo elemento
-   2. Secondo elemento
-```
-   - Elemento 1
-   - Elemento 2
-
-   1. Primo elemento
-   2. Secondo elemento
- 
-
-  ## 4.Link
-    
-```
- [Testo del link](https://www.example.com)
-```
-  
-   [Testo del link](https://www.example.com)
-   
-
-   ## 5.Immagini
-
-```
-![Testo alternativo](https://cdn-icons-png.flaticon.com/256/826/826118.png)
-```
-   ![Testo alternativo](https://cdn-icons-png.flaticon.com/256/826/826118.png)
-
-
-   ## 6.Citazioni
-   
-  ```
-   > Questo è un esempio di citazione.
-```
-   > Questo è un esempio di citazione.
-  
-
-## 7.Backtick
-```
-`Backtick`
-```
-`Backtick`
-
-
-## 8.Tabelle
-  ```
-   | Intestazione 1 | Intestazione 2 |
-   | -------------- | -------------- |
-   | Cella 1        | Cella 2        |
- 
-```
-   | Intestazione 1 | Intestazione 2 |
-   | -------------- | -------------- |
-   | Cella 1        | Cella 2        |
- 
+---

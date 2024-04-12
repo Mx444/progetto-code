@@ -1,11 +1,7 @@
-# Spiegazione Git
-Argomento: Git  
-Corso: Progetto CODE 2   
-Data: 10/04/2024  
-Francesco Serauto  
+![](https://i.ibb.co/P1RsC9H/GIT.png)
 
-# Git 
-**Git** è un sistema di controllo delle versioni distribuito, progettato per gestire progetti di qualsiasi dimensione con velocità ed efficienza. Ecco come funziona
+## **Git** 
+Git è un sistema di controllo delle versioni distribuito, progettato per gestire progetti di qualsiasi dimensione con velocità ed efficienza. Ecco come funziona
 
 1. **Repository**: In Git, un repository è una raccolta di file che costituiscono il progetto. Questo include il codice sorgente, la documentazione, i file di configurazione e altro ancora. Un repository Git può essere ospitato localmente sul tuo computer o su un server remoto.
 
@@ -22,6 +18,4 @@ Francesco Serauto
 7. **Staging Area**: Git utilizza una "staging area" per preparare le modifiche prima di eseguire il commit. Questo ti consente di selezionare quali modifiche includere nel prossimo commit, consentendo una maggiore precisione e controllo sulle modifiche registrate.
 
 8. **Rami remoti**: Oltre ai branch locali, Git consente di tenere traccia dei branch remoti, che sono versioni dei branch ospitati su un repository remoto. Puoi sincronizzare i branch locali con i branch remoti per condividere il lavoro con altri membri del team.
-
-Questi sono solo alcuni concetti fondamentali di Git. È un sistema molto potente e flessibile che offre molte altre funzionalità per gestire progetti software in modo efficiente.
 
