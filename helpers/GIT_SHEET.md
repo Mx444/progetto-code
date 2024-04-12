@@ -41,7 +41,7 @@
 - `git fetch`: Recuperare i commit dal repository remoto senza integrarli.
 - `git pull`: Estrarre e integrare i cambiamenti dal repository remoto nella branch corrente.
 - `git push`: Caricare i commit locali sul repository remoto.
-
+-  `git push -f`:Forza i commit locali sul repository remoto ignorando eventuali conflitti.
 ### Ricerca e visualizzazione della history:
 - `git log`: Visualizzare la history dei commit.
 - `git show <commit>`: Visualizzare i dettagli di un commit specifico.
