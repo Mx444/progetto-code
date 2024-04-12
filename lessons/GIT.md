@@ -1,4 +1,4 @@
-![alt](https://i.ibb.co/P1RsC9H/GIT.png)
+![alt](https://i.ibb.co/ggknDr4/GIT.png)
 
 ## **Git**
 
