@@ -7,6 +7,7 @@
 - `git config --global user.email "email@example.com"`: Impostare l'email utente a livello globale.
 - `git config --global core.editor "editor"`: Impostare l'editor predefinito per i messaggi di commit.
 - `git config --global alias.<alias-name> "<git-command>"`: Creare alias per comandi Git frequentemente utilizzati.
+- `git remote add origin repository_URL`: Impostare origin URL
 
 ### Inizializzazione e clonazione
 
