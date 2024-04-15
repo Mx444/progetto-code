@@ -29,6 +29,7 @@
 - `git rm <file>`: Rimuove un file dal repository Git e lo elimina dalla directory di lavoro.
 - `git restore <file>`: Ripristina file dallo staging area o dal commit precedente.
 
+
 ### Branching e merging
 
 - `git branch`: Elencare, creare o eliminare branch.
