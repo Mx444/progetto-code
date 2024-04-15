@@ -29,7 +29,7 @@
 - `git mv <file_originale> <file_destinazione>`: Sposta o rinomina un file e gestisce le modifiche in Git.
 - `git rm <file>`: Rimuove un file dal repository Git e lo elimina dalla directory di lavoro.
 - `git restore <file>`: Ripristina file dallo staging area o dal commit precedente.
-- `git  --hard hash`: Viene utilizzato per spostare il ramo corrente e l'HEAD a un commit specifico nel repository Git
+- `git --hard <hash>`: Viene utilizzato per spostare il ramo corrente e l'HEAD a un commit specifico nel repository Git
 
 
 ### Branching e merging
