@@ -2,11 +2,13 @@
 <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/80728820-e06b-4f96-9c9e-9df46f0cc0a5" width="600">
 </div>
 <br><br>
+<div align="center"><a href="markdown.html"> Markdown </a>-<a href="git.html"> Git </a>-<a href="index.html"> HTML </a> </div>
 
 # Progetto CODE
 
 l progetto è stato selezionato dal Fondo per la Repubblica Digitale – Impresa sociale.
 Il Fondo per la Repubblica Digitale è nato da una partnership tra pubblico e privato sociale (Governo e Associazione di Fondazioni e di Casse di risparmio – Acri) e, in via sperimentale per gli anni 2022-2026, stanzia un totale di circa 350 milioni di euro. È alimentato da versamenti effettuati dalle Fondazioni di origine bancaria. L’obiettivo è accrescere le competenze digitali e sviluppare la transizione digitale del Paese. Per attuare i programmi del Fondo – che si muove nell’ambito degli obiettivi di digitalizzazione previsti dal PNRR (Piano Nazionale di Ripresa e Resilienza) e dall’FNC (Fondo Nazionale Complementare) – a maggio 2022 è nato il Fondo per la Repubblica Digitale – Impresa sociale, organizzazione senza scopo di lucro interamente partecipata da Acri.
+
 <div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="900">
   </div>
