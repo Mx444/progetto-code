@@ -2,7 +2,7 @@
 <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/80728820-e06b-4f96-9c9e-9df46f0cc0a5" width="600">
 </div>
 <br><br>
-<div align="center"><a href="project/html/markdown.html"> Markdown </a>-<a href="project/html/git.html"> Git </a>-<a href="project/html/index.html"> HTML </a> </div>
+<div align="center"><a href="project/html/markdown.html"> Markdown -</a><a href="project/html/git.html"> Git -</a><a href="project/html/index.html"> HTML -</a> <a href="project/html/css.html"> CSS </a></div>
 
 # Progetto CODE
 
