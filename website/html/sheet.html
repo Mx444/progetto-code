@@ -135,12 +135,12 @@
 - `git add .`: Aggiunge tutti i file modificati nella directory corrente allo staging area.
 - `git add -p`: Aggiunge in modo interattivo solo alcune parti di un file allo staging area.
 - `git commit -m "messaggio"`: Committa i cambiamenti nello staging area nel repository.
-- `git commit --amend`: Modifica l'ultimo commit aggiungendo nuove modifiche o modificando il messaggio di commit.
+- `git commit --amend`: Modifica l'ultimo commit.
 - `git status`: Mostra lo stato dei file nel repository.
 - `git diff`: Mostra le differenze tra il working directory e lo staging area.
 - `git diff --cached`: Mostra le differenze tra lo staging area e l'ultimo commit.
 - `git checkout -- <file>`: Annulla le modifiche non commesse a un file nel working directory.
-- `git log -p <file>`: Mostra la history dei commit per un file specifico insieme alle modifiche apportate in ciascun commit.
+- `git log -p <file>`: Mostra la history dei commit per un file specifico.
 - `git mv <file_originale> <file_destinazione>`: Sposta o rinomina un file e gestisce le modifiche in Git.
 - `git rm <file>`: Rimuove un file dal repository Git e lo elimina dalla directory di lavoro.
 - `git restore <file>`: Ripristina file dallo staging area o dal commit precedente.
@@ -150,7 +150,7 @@
 - `git stash apply`: Riapplica le modifiche messe da parte.
 - `git stash list`: Elenca le modifiche messe da parte.
 - `git cherry-pick`: Applica un singolo commit da un ramo a un altro.
-- `git log--follow file`: Visualizza la cronologia dei commit di un file, anche se è stato rinominato.
+- `git log--follow file`: Visualizza la cronologia dei commit di un file,anche se è stato rinominato.
 <h3>Branching e merging</h3>
 - `git branch`: Elencare, creare o eliminare branch.
 - `git branch <nome_branch>`: Creare un nuovo branch con il nome specificato.
@@ -163,7 +163,7 @@
 - `git merge --abort`: Annullare un merge in corso e ripristinare lo stato precedente.
 - `git rebase <branch>`: Riapplicare i commit di un branch su un altro.
 - `git branch -a`: Elenca tutti i rami disponibili, inclusi quelli remoti.
-- `git merge--squash branch`: Fonde i cambiamenti da un ramo in un nuovo commit, semplificando la cronologia.
+- `git merge--squash branch`: Fonde i cambiamenti da un ramo in un nuovo commit.
 - `git branch --contains commit`: Elenca i rami che contengono il commit specificato.
 <h3>Sincronizzazione con il repository remoto</h3>
 - `git fetch`: Recuperare i commit dal repository remoto senza integrarli.
@@ -175,7 +175,7 @@
 - `git show <commit>`: Visualizzare i dettagli di un commit specifico.
 - `git blame <file>`: Visualizzare l'ultimo commit che ha modificato ciascuna linea di un file.
 - `git grep <testo>`: Cercare testo nei file del repository.
-- `git diff`: Mostra le differenze tra lo stato attuale dell'area di lavoro e lo stato degli ultimi commit.
+- `git diff`: Mostra lo stato attuale dell'area di lavoro e lo stato degli ultimi commit.
 - `git log --oneline`:Commit in una forma compatta.
 - `git tag[nome_tag][commit]`: Aggiunge un tag a un determinato commit. 
  <h3>Gestione dei conflitti</h3>
