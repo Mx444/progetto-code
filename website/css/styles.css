@@ -49,6 +49,7 @@ code {
 }
 #box-link-title {
   padding: 10px;
+
   font-size: 15px;
 }
 #code-gif {
@@ -71,9 +72,7 @@ code {
   margin-top: 20px;
   border-radius: 9px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
-
   display: flex;
-
   flex-direction: column;
 }
 

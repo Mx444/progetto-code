@@ -68,9 +68,8 @@
             "></h2>
           <details>
             <summary>Questa categoria comprende una serie di comandi utilizzati per interagire con un <b>terminale o una shell</b></summary>
-            <pre><code> 
-                <h3> Gestione dei file e delle directory</h3>
-
+            
+                <h3> Gestione dei file e delle directory</h3><pre><code> 
 - `ls`: Elencare i file e le directory in una directory.
 - `cd`: Cambiare la directory corrente.
 - `mkdir`: Creare una nuova directory.
@@ -80,41 +79,31 @@
 - `rm`: Rimuovere file e directory.
 - `chmod`: Modificare i permessi dei file.
 - `chown`: Modificare il proprietario e il gruppo di un file.
-            
             <h3>Visualizzazione e modifica dei file</h3>
-            
 - `cat`: Visualizzare il contenuto di un file.
 - `less` o `more`: Visualizzare il contenuto di un file uno schermo alla volta.
 - `nano` o `vim`: Editor di testo a riga di comando.
 - `head`: Visualizzare le prime righe di un file.
 - `tail`: Visualizzare le ultime righe di un file.
-            
             <h3>Gestione dei processi</h3>
-            
 - `ps`: Visualizzare i processi in esecuzione.
 - `kill`: Terminare un processo.
 - `top` o `htop`: Visualizzare i processi in tempo reale e le risorse di sistema.
 - `bg`: Mettere un processo in esecuzione in background.
 - `fg`: Riportare un processo in esecuzione in foreground.
-            
             <h3>Gestione del sistema e delle risorse</h3>
-            
 - `uname`: Mostrare informazioni sul sistema.
 - `df`: Mostrare lo spazio su disco disponibile.
 - `du`: Mostrare lo spazio utilizzato dalle directory.
 - `free`: Mostrare la memoria libera e utilizzata.
 - `uptime`: Mostrare il tempo di attività del sistema e la media di carico.
-            
             <h3>Rete e connessioni</h3>
-            
 - `ifconfig` o `ip`: Mostrare e configurare le interfacce di rete.
 - `ping`: Testare la connettività di rete.
 - `netstat`: Tabelle di routing e le statistiche delle interfacce.
 - `ssh`: Connessione remota a un altro sistema.
 - `scp`: Copiare file tramite SSH.
-            
             <h3>Compressione e archiviazione</h3>
-            
 - `tar`: Creare, visualizzare o estrarre file archivio .tar.
 - `gzip` o `gunzip`: Comprimere o decomprimere file .gz.
 - `zip` o `unzip`: Creare, visualizzare o estrarre file archivio .zip.
@@ -128,25 +117,20 @@
             "></h2>
           <details>
             <summary>Questa categoria comprende una serie di comandi utilizzati per <b>gestire repository Git</b>, tracciare modifiche nel codice sorgente e collaborare con altri sviluppatori. </summary>
-            <pre><code>
-                <h3>Configurazione</h3>
-
+            
+<h3>Configurazione</h3><pre><code>
 - `git config`: Impostare le configurazioni di Git come nome utente, email, alias, ecc.
 - `git config --global user.name "Nome"`: Impostare il nome utente a livello globale.
 - `git config --global user.email "email@example.com"`: Impostare l'email utente a livello globale.
 - `git config --global core.editor "editor"`: Impostare l'editor predefinito per i messaggi di commit.
 - `git config --global alias.<alias-name> "<git-command>"`: Creare alias per comandi Git frequentemente utilizzati.
 - `git remote add origin repository_URL`: Viene utilizzato per aggiungere un "remote" al repository Git locale.
-- `git remote remove origin`: Questo comando viene utilizzato per rimuovere il repository remoto chiamato "origin" dal tuo repository Git.
-- `git config --globalcredential.helperstore`:Questo comando viene utilizzato per configurare Git in modo da memorizzare le credenziali
-                
-                <h3>Inizializzazione e clonazione</h3>
-                
+- `git remote remove origin`: rimuovere il repository remoto.
+- `git config --globalcredential.helperstore`: Memorizzare le credenziali
+<h3>Inizializzazione e clonazione</h3> 
 - `git init`: Inizializzare un nuovo repository Git nella directory corrente.
 - `git clone <url>`: Clonare un repository Git esistente.
-                
-                <h3>Gestione dei cambiamenti</h3>
-                
+<h3>Gestione dei cambiamenti</h3>
 - `git add <file>`: Aggiunge file al staging area.
 - `git add .`: Aggiunge tutti i file modificati nella directory corrente allo staging area.
 - `git add -p`: Aggiunge in modo interattivo solo alcune parti di un file allo staging area.
@@ -167,9 +151,7 @@
 - `git stash list`: Elenca le modifiche messe da parte.
 - `git cherry-pick`: Applica un singolo commit da un ramo a un altro.
 - `git log--follow file`: Visualizza la cronologia dei commit di un file, anche se è stato rinominato.
-                
-                <h3>Branching e merging</h3>
-                
+<h3>Branching e merging</h3>
 - `git branch`: Elencare, creare o eliminare branch.
 - `git branch <nome_branch>`: Creare un nuovo branch con il nome specificato.
 - `git branch -d <branch>`: Eliminare un branch locale.
@@ -183,37 +165,28 @@
 - `git branch -a`: Elenca tutti i rami disponibili, inclusi quelli remoti.
 - `git merge--squash branch`: Fonde i cambiamenti da un ramo in un nuovo commit, semplificando la cronologia.
 - `git branch --contains commit`: Elenca i rami che contengono il commit specificato.
-
-                <h3>Sincronizzazione con il repository remoto</h3>
-                
+<h3>Sincronizzazione con il repository remoto</h3>
 - `git fetch`: Recuperare i commit dal repository remoto senza integrarli.
 - `git pull`: Estrarre e integrare i cambiamenti dal repository remoto nella branch corrente.
 - `git push`: Caricare i commit locali sul repository remoto.
 - `git push -f`:Forza i commit locali sul repository remoto ignorando eventuali conflitti.
-                
-                <h3>Ricerca e visualizzazione della history</h3>
-                
+<h3>Ricerca e visualizzazione della history</h3>
 - `git log`: Visualizzare la history dei commit.
 - `git show <commit>`: Visualizzare i dettagli di un commit specifico.
 - `git blame <file>`: Visualizzare l'ultimo commit che ha modificato ciascuna linea di un file.
 - `git grep <testo>`: Cercare testo nei file del repository.
 - `git diff`: Mostra le differenze tra lo stato attuale dell'area di lavoro e lo stato degli ultimi commit.
-- `git log --oneline`: Visualizza la cronologia dei commit in una forma compatta, mostrando solo l'hash abbreviato del commit e il suo messaggio.
+- `git log --oneline`:Commit in una forma compatta.
 - `git tag[nome_tag][commit]`: Aggiunge un tag a un determinato commit. 
-                
-                <h3>Gestione dei conflitti</h3>
-                
+ <h3>Gestione dei conflitti</h3>
 - `git status`: Mostrare lo stato del repository, inclusi eventuali conflitti.
 - `git merge <branch>`: Unire i cambiamenti di un branch in un altro e risolvere i conflitti.
 - `git mergetool`: Utilizzare uno strumento grafico per risolvere i conflitti di merge.
-                
-                <h3>Altro</h3>
-                
+<h3>Altro</h3>
 - `git stash`: Nascondere le modifiche non commesse per utilizzarle in seguito.
 - `git tag <nome>`: Etichettare un commit con un nome significativo.
 - `git remote -v`: Mostrare i repository remoti configurati.
 - `git fetch --all`: Recuperare tutti i riferimenti dal repository remoto.
-                
            </code></pre>
           </details>
         </div>
@@ -369,7 +342,7 @@ p {
 /* Stili qui */
 }
                     
-/* Seleziona un elemento che è figlio diretto di un elemento con la classe 'container' */
+/* Seleziona elemento che è figlio diretto di un elemento con la classe 'container' */
 .container > p {
 /* Stili qui */
 }
@@ -576,7 +549,8 @@ transform: scale(1.5);
                     
 /* Applica un'animazione a un elemento */
 .element {
-animation: nomeAnimazione 2s ease-in-out infinite; /* nome, durata, timing-function, ripetizione */
+animation: nomeAnimazione 2s ease-in-out infinite; 
+/* nome, durata, timing-function, ripetizione */
 }
 ```
                     </code></pre>
