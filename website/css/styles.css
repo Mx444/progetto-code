@@ -69,22 +69,24 @@ code {
   margin-right: auto;
 }
 #dog {
+  display: flex;
   border-radius: 9px;
+  width: 200px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
 }
 #gpull {
+  display: flex;
   border-radius: 9px;
+  width: 200px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
 }
 #homer {
+  display: flex;
   border-radius: 9px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
 }
 
 a:link {
