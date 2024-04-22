@@ -73,9 +73,18 @@
         <!--Inizio Docs-->
         <h1>Documenti</h1>
         <p>
-          <b>Benvenuto alla sezione dedicata ai documenti !</b> Qui troverai
-          risorse preziose per il tuo apprendimento sia nel campo del front-end
-          che del back-end.
+          <b>Benvenuto alla sezione dedicata ai documenti!</b> Qui troverai un
+          vasto assortimento di risorse preziose per arricchire il tuo
+          apprendimento sia nel campo del <b>front-end che del back-end</b>.
+          Potrai esplorare guide dettagliate,
+          <b
+            >documentazioni tecniche, tutorial passo-passo e molto altro
+            ancora</b
+          >. Che tu sia un principiante desideroso di imparare le basi o un
+          esperto alla ricerca di approfondimenti avanzati, c'è qualcosa qui per
+          soddisfare le tue esigenze. Sii pronto a immergerti in un mondo di
+          conoscenza e a scoprire tutto ciò di cui hai bisogno per sviluppare le
+          tue competenze nel campo dello <b>sviluppo web</b>.
         </p>
         <img
           id="dog"
@@ -420,10 +429,10 @@
           </details>
         </div>
         <!--Fine CSS-->
-        <!--Inizio DOM-->
+        <!--Inizio Box DOM CSSOM-->
         <div class="box">
           <h2>
-            DOM
+            DOM & CSSOM
             <img
               src="https://media.tenor.com/S2U0LSC9evkAAAAj/verified.gif"
               width="15px"
@@ -431,95 +440,169 @@
           </h2>
           <details>
             <summary>
-              Il <b>DOM</b>, acronimo di <b>Document Object Model</b>, è una
-              rappresentazione
-              <b>gerarchica dei documenti HTML, XHTML o XML</b>. È un concetto
-              fondamentale per comprendere come interagiscono JavaScript e i
-              browser web. Qui di seguito una lezione completa sul DOM:
+              <b>il Document Object Model (DOM)</b> e
+              <b>il CSS Object Model (CSSOM)</b>. Il DOM fornisce una
+              rappresentazione strutturata degli elementi HTML all'interno di
+              una pagina web, consentendo agli sviluppatori di manipolare
+              dinamicamente la struttura, il contenuto e gli attributi degli
+              elementi utilizzando linguaggi di scripting come JavaScript.
+              Parallelamente, il CSSOM offre una visione organizzata degli stili
+              CSS applicati a una pagina, permettendo agli sviluppatori di
+              gestire e modificare dinamicamente gli stili degli elementi HTML.
+              Insieme, il DOM e il CSSOM forniscono un'interfaccia potente e
+              coerente per creare esperienze web interattive e dinamiche,
+              consentendo agli sviluppatori di trasformare le loro visioni
+              creative in realtà digitale.
             </summary>
-            <p></p>
-            <h2>Introduzione al DOM</h2>
+            <!--Inizio DOM-->
+            <div class="box">
+              <h2>
+                DOM
+                <img
+                  src="https://media.tenor.com/S2U0LSC9evkAAAAj/verified.gif"
+                  width="15px"
+                />
+              </h2>
+              <details>
+                <summary>
+                  Il <b>DOM</b>, acronimo di <b>Document Object Model</b>, è una
+                  rappresentazione
+                  <b>gerarchica dei documenti HTML, XHTML o XML</b>. È un
+                  concetto fondamentale per comprendere come interagiscono
+                  JavaScript e i browser web. Qui di seguito una lezione
+                  completa sul DOM:
+                </summary>
+                <p></p>
+                <h2>Introduzione al DOM</h2>
 
-            Il Document Object Model (DOM) è una rappresentazione gerarchica di
-            un documento strutturato come HTML, XHTML o XML. Quando un browser
-            carica una pagina web, crea un modello di questa pagina che può
-            essere manipolato tramite JavaScript. Il DOM consente agli
-            sviluppatori web di accedere, modificare, aggiungere o rimuovere
-            elementi HTML e attributi dinamicamente, rendendo le pagine web
-            interattive e dinamiche.
+                Il Document Object Model (DOM) è una rappresentazione gerarchica
+                di un documento strutturato come HTML, XHTML o XML. Quando un
+                browser carica una pagina web, crea un modello di questa pagina
+                che può essere manipolato tramite JavaScript. Il DOM consente
+                agli sviluppatori web di accedere, modificare, aggiungere o
+                rimuovere elementi HTML e attributi dinamicamente, rendendo le
+                pagine web interattive e dinamiche.
 
-            <h2>Struttura del DOM</h2>
+                <h2>Struttura del DOM</h2>
 
-            Il DOM è organizzato come un albero gerarchico, con un nodo radice
-            che rappresenta l'intero documento HTML e nodi figlio che
-            rappresentano gli elementi all'interno del documento. Ad esempio, un
-            documento HTML di base potrebbe avere una struttura del DOM simile a
-            questa:
+                Il DOM è organizzato come un albero gerarchico, con un nodo
+                radice che rappresenta l'intero documento HTML e nodi figlio che
+                rappresentano gli elementi all'interno del documento. Ad
+                esempio, un documento HTML di base potrebbe avere una struttura
+                del DOM simile a questa:
 
-            <br /><img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png"/
-            width="400px"><br />
+                <br /><img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png"/
+                width="400px"><br />
 
-            In questo esempio, "html" è il nodo radice e contiene due nodi
-            figlio: "head" e "body". A loro volta, questi nodi contengono
-            ulteriori nodi figlio che rappresentano gli elementi HTML
-            all'interno del documento.
+                In questo esempio, "html" è il nodo radice e contiene due nodi
+                figlio: "head" e "body". A loro volta, questi nodi contengono
+                ulteriori nodi figlio che rappresentano gli elementi HTML
+                all'interno del documento.
 
-            <h2>Selezione degli elementi del DOM</h2>
+                <h2>Selezione degli elementi del DOM</h2>
 
-            JavaScript consente di selezionare elementi nel DOM in vari modi. Il
-            metodo più comune è utilizzare la funzione
-            `document.querySelector()` per selezionare un elemento specifico
-            utilizzando un selettore CSS. Ad esempio:
+                <p>
+                  <strong>Il DOM (Modello a Oggetto del Documento)</strong> è
+                  una struttura logica che definisce come gli elementi in un
+                  documento possono essere manipolati e modificati. Poiché il
+                  DOM è strutturato come un albero in cui tutto è collegato, è
+                  possibile accedere, modificare, eliminare o aggiungere nuovi
+                  elementi o contenuto a un documento utilizzando il DOM². Ecco
+                  alcune informazioni utili su come selezionare elementi nel
+                  DOM:
+                </p>
 
-            <pre><code>
-              const titolo = document.querySelector("&lt;h1&gt;");
-              
-              </code></pre>
-            Questo codice selezionerebbe il primo elemento `&lth1&gt` trovato
-            nel documento. È anche possibile selezionare più elementi
-            utilizzando `document.querySelectorAll()`, che restituisce una
-            NodeList di tutti gli elementi che corrispondono al selettore
-            specificato.
+                <ol>
+                  <li>
+                    <p>
+                      <strong>getElementById()</strong>: Con questo metodo, puoi
+                      selezionare qualsiasi elemento su una pagina web che abbia
+                      l'attributo id. Basta passare il valore di id
+                      dell'elemento che desideri selezionare. Ad esempio:
+                    </p>
+                    <pre><code class="language-javascript">var p = document.getElementById("mioParagrafo");</code></pre>
+                    <p>
+                      Questo restituirà un oggetto che rappresenta il nodo di
+                      tipo elemento con l'attributo id specificato. Se
+                      l'elemento non esiste, viene restituito null.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <strong>getElementsByName()</strong>: Questo metodo
+                      restituisce un elenco di oggetti (un NodeList) i cui
+                      valori dell'attributo name corrispondono al parametro
+                      specificato. Ad esempio:
+                    </p>
+                    <pre><code class="language-javascript">var listaNodi = document.getElementsByName("nomeElemento");</code></pre>
+                  </li>
+                  <li>
+                    <p>
+                      <strong>getElementsByTagName()</strong>: Puoi individuare
+                      gli elementi di una pagina in base al loro tag utilizzando
+                      questo metodo. Ad esempio:
+                    </p>
+                    <pre><code class="language-javascript">var listaParagrafi = document.getElementsByTagName("p");</code></pre>
+                    <p>
+                      Specificando "*" come parametro, otterrai l'elenco di
+                      tutti i nodi della pagina.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <strong>querySelector()</strong> e
+                      <strong>querySelectorAll()</strong>: Questi metodi
+                      consentono di selezionare elementi utilizzando i selettori
+                      CSS. querySelector() restituisce il primo elemento
+                      trovato, mentre querySelectorAll() restituisce l'elenco di
+                      tutti gli elementi individuati dal selettore. Esempi:
+                    </p>
+                    <pre><code class="language-javascript">var divList = document.querySelectorAll("div.messaggio");
+var p = document.querySelector("#mioParagrafo");</code></pre>
+                  </li>
+                </ol>
 
-            <pre><code>
-              const paragrafi = document.querySelectorAll("p");
-              </code></pre>
+                <p>
+                  In breve, il DOM ti consente di manipolare quasi tutto su una
+                  pagina web.
+                </p>
 
-            <h2>Manipolazione degli elementi del DOM</h2>
+                <h2>Manipolazione degli elementi del DOM</h2>
 
-            Una volta selezionati gli elementi, è possibile modificarli,
-            aggiungerli o rimuoverli utilizzando JavaScript. Ecco alcuni esempi:
+                Una volta selezionati gli elementi, è possibile modificarli,
+                aggiungerli o rimuoverli utilizzando JavaScript. Ecco alcuni
+                esempi:
 
-            <h2>Modifica del contenuto di un elemento:</h2>
+                <h3>Modifica del contenuto di un elemento:</h3>
 
-            <pre><code>
+                <pre><code>
               titolo.textContent = "Nuovo titolo";
               </code></pre>
 
-            <h3>Aggiunta di un nuovo elemento:</h3>
+                <h3>Aggiunta di un nuovo elemento:</h3>
 
-            <pre><code>
+                <pre><code>
               const nuovoParagrafo = document.createElement("p");
               nuovoParagrafo.textContent = "Questo è un nuovo paragrafo.";
               document.body.appendChild(nuovoParagrafo);
              </code></pre>
 
-            <h3>Rimozione di un elemento:</h3>
+                <h3>Rimozione di un elemento:</h3>
 
-            <pre><code>
+                <pre><code>
               const paragrafoDaRimuovere = document.querySelector("p");
               paragrafoDaRimuovere.remove();
               </code></pre>
 
-            <h3>Eventi del DOM</h3>
+                <h3>Eventi del DOM</h3>
 
-            Il DOM supporta eventi, come il click di un pulsante o il
-            caricamento di una pagina. È possibile aggiungere gestori di eventi
-            agli elementi del DOM per eseguire azioni specifiche quando si
-            verificano questi eventi. Ecco un esempio:
-            <br />
-            <pre><code>
+                Il DOM supporta eventi, come il click di un pulsante o il
+                caricamento di una pagina. È possibile aggiungere gestori di
+                eventi agli elementi del DOM per eseguire azioni specifiche
+                quando si verificano questi eventi. Ecco un esempio:
+                <br />
+                <pre><code>
               const pulsante = document.querySelector("button");
               
               pulsante.addEventListener("click", function () {
@@ -527,65 +610,66 @@
               });
             </code></pre>
 
-            <h3>Conclusioni</h3>
+                <h3>Conclusioni</h3>
 
-            <p>
-              Il Document Object Model (DOM) è una parte essenziale dello
-              sviluppo web moderno. Consente agli sviluppatori di creare pagine
-              web dinamiche e interattive, manipolando gli elementi HTML e
-              rispondendo agli eventi dell'utente. Con una buona comprensione
-              del DOM e delle sue funzionalità, è possibile creare esperienze
-              utente coinvolgenti e interattive.
-            </p>
-          </details>
-        </div>
-        <!--Fine DOM-->
-        <!--Inizio CSSOM-->
-        <div class="box">
-          <h2>
-            CSSOM
-            <img
-              src="https://media.tenor.com/S2U0LSC9evkAAAAj/verified.gif"
-              width="15px"
-            />
-          </h2>
-          <details>
-            <summary>
-              Il <b>CSSOM (Cascading Style Sheets Object Model)</b> è una
-              rappresentazione strutturata dei documenti CSS (Cascading Style
-              Sheets). È una parte essenziale per manipolare dinamicamente i CSS
-              utilizzando JavaScript. Ti darò una panoramica completa del CCSOM
-              e del suo funzionamento.
-            </summary>
-            <p></p>
-            <h2>Introduzione a CCSOM:</h2>
+                <p>
+                  Il Document Object Model (DOM) è una parte essenziale dello
+                  sviluppo web moderno. Consente agli sviluppatori di creare
+                  pagine web dinamiche e interattive, manipolando gli elementi
+                  HTML e rispondendo agli eventi dell'utente. Con una buona
+                  comprensione del DOM e delle sue funzionalità, è possibile
+                  creare esperienze utente coinvolgenti e interattive.
+                </p>
+              </details>
+            </div>
+            <!--Fine DOM-->
+            <!--Inizio CSSOM-->
+            <div class="box">
+              <h2>
+                CSSOM
+                <img
+                  src="https://media.tenor.com/S2U0LSC9evkAAAAj/verified.gif"
+                  width="15px"
+                />
+              </h2>
+              <details>
+                <summary>
+                  Il <b>CSSOM (Cascading Style Sheets Object Model)</b> è una
+                  rappresentazione strutturata dei documenti CSS (Cascading
+                  Style Sheets). È una parte essenziale per manipolare
+                  dinamicamente i CSS utilizzando JavaScript. Ti darò una
+                  panoramica completa del CCSOM e del suo funzionamento.
+                </summary>
+                <p></p>
+                <h2>Introduzione a CCSOM:</h2>
 
-            Il CCSOM fornisce un'API (Application Programming Interface) che
-            consente di accedere e manipolare i fogli di stile CSS tramite
-            JavaScript. Questo significa che puoi modificare dinamicamente lo
-            stile di un documento HTML senza dover modificare il markup HTML
-            stesso.
+                Il CCSOM fornisce un'API (Application Programming Interface) che
+                consente di accedere e manipolare i fogli di stile CSS tramite
+                JavaScript. Questo significa che puoi modificare dinamicamente
+                lo stile di un documento HTML senza dover modificare il markup
+                HTML stesso.
 
-            <h3>Struttura del CCSOM:</h3>
+                <h3>Struttura del CCSOM:</h3>
 
-            Il CCSOM è organizzato in una struttura ad albero, simile al DOM
-            (Document Object Model). Ogni regola CSS all'interno di un foglio di
-            stile è rappresentata come un oggetto nel CCSOM. Le principali
-            entità nel CCSOM includono:<br />
-            1. <b>StyleSheet:</b> Rappresenta un foglio di stile completo.<br />
-            2. <b>CSSRule</b>: Rappresenta una singola regola CSS, come un
-            selettore e le sue proprietà.<br />
-            3. <b>CSSStyleRule</b>: Sottoinsieme di CSSRule che rappresenta le
-            regole di stile.<br />
-            4. <b>CSSStyleSheet</b>: Una rappresentazione di un foglio di stile
-            CSS, che contiene un insieme di regole.
+                Il CCSOM è organizzato in una struttura ad albero, simile al DOM
+                (Document Object Model). Ogni regola CSS all'interno di un
+                foglio di stile è rappresentata come un oggetto nel CCSOM. Le
+                principali entità nel CCSOM includono:<br />
+                1. <b>StyleSheet:</b> Rappresenta un foglio di stile
+                completo.<br />
+                2. <b>CSSRule</b>: Rappresenta una singola regola CSS, come un
+                selettore e le sue proprietà.<br />
+                3. <b>CSSStyleRule</b>: Sottoinsieme di CSSRule che rappresenta
+                le regole di stile.<br />
+                4. <b>CSSStyleSheet</b>: Una rappresentazione di un foglio di
+                stile CSS, che contiene un insieme di regole.
 
-            <h3>Utilizzo del CCSOM:</h3>
+                <h3>Utilizzo del CCSOM:</h3>
 
-            Per accedere e manipolare il CCSOM, puoi utilizzare JavaScript. Ecco
-            un esempio di come potresti farlo:
-            <br />
-            <pre><code>
+                Per accedere e manipolare il CCSOM, puoi utilizzare JavaScript.
+                Ecco un esempio di come potresti farlo:
+                <br />
+                <pre><code>
               // Seleziona il primo foglio di stile nel documento
               var styleSheet = document.styleSheets[0];
               
@@ -601,29 +685,83 @@
               // Modifica una regola di stile esistente
               rules[0].style.color = "red";
             </code></pre>
-            <br />
-            <h3>Considerazioni importanti:</h3>
+                <br />
+                <h3>Considerazioni importanti:</h3>
 
-            - La manipolazione del CCSOM può influenzare direttamente l'aspetto
-            del tuo documento HTML, quindi è importante utilizzarla con cautela.
-            - Il CCSOM può essere soggetto a restrizioni di sicurezza,
-            specialmente quando si tenta di manipolare fogli di stile da origini
-            diverse (come fogli di stile esterni). - È possibile che alcune
-            vecchie versioni dei browser non supportino tutte le funzionalità
-            del CCSOM, quindi è consigliabile controllare la compatibilità del
-            browser prima di utilizzarlo in produzione.
+                - La manipolazione del CCSOM può influenzare direttamente
+                l'aspetto del tuo documento HTML, quindi è importante
+                utilizzarla con cautela. - Il CCSOM può essere soggetto a
+                restrizioni di sicurezza, specialmente quando si tenta di
+                manipolare fogli di stile da origini diverse (come fogli di
+                stile esterni). - È possibile che alcune vecchie versioni dei
+                browser non supportino tutte le funzionalità del CCSOM, quindi è
+                consigliabile controllare la compatibilità del browser prima di
+                utilizzarlo in produzione.
 
-            <h3>Conclusione:</h3>
+                <h3>Conclusione:</h3>
 
-            <p>
-              Il CCSOM è uno strumento potente che consente di manipolare
-              dinamicamente i fogli di stile CSS tramite JavaScript. Con una
-              comprensione approfondita di come funziona e delle sue API, puoi
-              creare esperienze web più dinamiche e interattive.
-            </p>
+                <p>
+                  Il CCSOM è uno strumento potente che consente di manipolare
+                  dinamicamente i fogli di stile CSS tramite JavaScript. Con una
+                  comprensione approfondita di come funziona e delle sue API,
+                  puoi creare esperienze web più dinamiche e interattive.
+                </p>
+              </details>
+            </div>
+            <!--Fine CSSOM-->
+            <div class="box">
+              <h2>
+                Interazione tra DOM e CSSOM
+                <img
+                  src="https://media.tenor.com/S2U0LSC9evkAAAAj/verified.gif"
+                  width="15px"
+                />
+              </h2>
+              <details>
+                <summary>
+                  L'interazione tra il
+                  <b
+                    >DOM (Document Object Model) e il CSSOM (CSS Object
+                    Model)</b
+                  >
+                  è fondamentale per la creazione
+                  <b
+                    >dinamica e l'aggiornamento degli elementi HTML e dei loro
+                    stili CSS su una pagina web.</b
+                  >
+                </summary>
+                <p>
+                  Quando si manipola il DOM utilizzando JavaScript, è possibile
+                  modificare anche le proprietà CSS degli elementi. Ad esempio,
+                  è possibile modificare lo stile di un elemento aggiungendo o
+                  rimuovendo classi CSS, modificando i valori delle proprietà
+                  CSS direttamente o applicando stili inline.Ecco un esempio di
+                  come modificare lo stile di un elemento del DOM utilizzando
+                  JavaScript:
+                </p>
+
+                <pre><code>
+                  // Seleziona un elemento dal DOM
+                  var elemento = document.getElementById("mioElemento");
+                  
+                  // Modifica lo stile dell'elemento
+                  elemento.style.color = "red";
+                  elemento.style.fontSize = "20px";
+                </code></pre>
+                <p>
+                  Questa manipolazione dello stile attraverso JavaScript
+                  modifica direttamente il CSSOM, influenzando così l'aspetto
+                  dell'elemento nella pagina web. In sintesi, l'interazione tra
+                  DOM e CSSOM consente di creare esperienze utente dinamiche e
+                  interattive attraverso la manipolazione degli elementi HTML e
+                  dei loro stili CSS utilizzando JavaScript.
+                </p>
+              </details>
+            </div>
           </details>
         </div>
-        <!--Fine CSSOM-->
+
+        <!--Fine Box DOM CSSOM-->
       </div>
       <!--Fine Content-->
     </div>
