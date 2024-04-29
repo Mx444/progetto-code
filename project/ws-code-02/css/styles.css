@@ -164,7 +164,7 @@ header {
   border-radius: 10px;
   background: transparent;
   border: 2px solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(50px);
   text-align: justify;
   color: #cacaca;
   margin-right: 100px;
@@ -308,4 +308,47 @@ footer ul li a {
   color: #333;
   font-weight: 600;
   box-shadow: 0 0 10px rgbs(0, 0, 0, 0.1);
+}
+.excon0 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@media (max-width: 600px) {
+  .excon0 {
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 420px) {
+  .excon0 {
+    width: 90%;
+  }
+}
+.excon0 p,
+span {
+  font-size: 30px;
+}
+#colori {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgbs(0, 0, 0, 0.1);
+  text-align: center;
 }
