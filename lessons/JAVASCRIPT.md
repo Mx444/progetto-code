@@ -325,3 +325,57 @@ let booleano = !!0; // risultato: false
 ```
 
 La coercizione può essere implicita, come nei casi sopra, o esplicita, quando si utilizzano operatori come `==` o `===` per confrontare i valori. La coercizione implicite può portare a comportamenti imprevisti, quindi è importante comprendere come funziona per evitare errori nel codice.
+
+````markdown
+### Oggetti in JavaScript:
+
+Un oggetto in JavaScript è una struttura dati che consente di raggruppare valori e funzionalità correlate come proprietà e metodi. Le proprietà di un oggetto sono coppie chiave-valore, dove la chiave è una stringa (o un simbolo a partire da ES6) e il valore può essere qualsiasi tipo di dato JavaScript, incluso un altro oggetto. I metodi di un oggetto sono funzioni associate ad esso.
+
+Ecco un esempio di come definire un oggetto in JavaScript:
+
+```javascript
+// Definizione di un oggetto persona
+let persona = {
+  nome: "Mario",
+  cognome: "Rossi",
+  eta: 30,
+  saluta: function () {
+    return "Ciao, sono " + this.nome + " " + this.cognome + "!";
+  },
+};
+
+// Accesso alle proprietà dell'oggetto
+console.log(persona.nome); // Output: Mario
+console.log(persona.saluta()); // Output: Ciao, sono Mario Rossi!
+```
+````
+
+### Classi in JavaScript
+
+Una classe in JavaScript è un tipo di struttura che consente di creare oggetti che condividono le stesse proprietà e metodi. Dalla versione ES6 di JavaScript, le classi sono state introdotte per rendere più semplice e intuitiva la creazione di oggetti e la definizione di relazioni tra di essi.
+
+Ecco un esempio di come definire una classe in JavaScript:
+
+```javascript
+// Definizione di una classe Persona
+class Persona {
+  constructor(nome, cognome, eta) {
+    this.nome = nome;
+    this.cognome = cognome;
+    this.eta = eta;
+  }
+
+  saluta() {
+    return "Ciao, sono " + this.nome + " " + this.cognome + "!";
+  }
+}
+
+// Creazione di un'istanza della classe Persona
+let mario = new Persona("Mario", "Rossi", 30);
+
+// Accesso alle proprietà e ai metodi dell'istanza
+console.log(mario.nome); // Output: Mario
+console.log(mario.saluta()); // Output: Ciao, sono Mario Rossi!
+```
+
+In questo esempio, `Persona` è una classe che ha tre proprietà (nome, cognome e eta) e un metodo (saluta). L'istruzione `let mario = new Persona("Mario", "Rossi", 30);` crea un'istanza della classe Persona chiamata `mario`, e possiamo accedere alle sue proprietà e ai suoi metodi utilizzando la notazione punto (`mario.nome`, `mario.saluta()`).
