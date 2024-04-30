@@ -591,6 +591,83 @@ let booleano = !!0; // risultato: false
             può portare a comportamenti imprevisti, quindi è importante
             comprendere come funziona per evitare errori nel codice.
           </p>
+
+          <h2>
+            JavaScript: Oggetti e Classi
+            <img
+              src="https://media.tenor.com/S2U0LSC9evkAAAAj/verified.gif"
+              width="15px"
+            />
+          </h2>
+
+          <h2>Oggetti in JavaScript:</h2>
+          <p>
+            Un oggetto in JavaScript è una struttura dati che consente di
+            raggruppare valori e funzionalità correlate come proprietà e metodi.
+            Le proprietà di un oggetto sono coppie chiave-valore, dove la chiave
+            è una stringa (o un simbolo a partire da ES6) e il valore può essere
+            qualsiasi tipo di dato JavaScript, incluso un altro oggetto. I
+            metodi di un oggetto sono funzioni associate ad esso.
+          </p>
+
+          <p>Ecco un esempio di come definire un oggetto in JavaScript:</p>
+
+          <pre><code>// Definizione di un oggetto persona
+let persona = {
+    nome: "Mario",
+    cognome: "Rossi",
+    eta: 30,
+    saluta: function() {
+        return "Ciao, sono " + this.nome + " " + this.cognome + "!";
+    }
+};
+
+// Accesso alle proprietà dell'oggetto
+console.log(persona.nome); // Output: Mario
+console.log(persona.saluta()); // Output: Ciao, sono Mario Rossi!
+</code></pre>
+
+          <h2>Classi in JavaScript:</h2>
+          <p>
+            Una classe in JavaScript è un tipo di struttura che consente di
+            creare oggetti che condividono le stesse proprietà e metodi. Dalla
+            versione ES6 di JavaScript, le classi sono state introdotte per
+            rendere più semplice e intuitiva la creazione di oggetti e la
+            definizione di relazioni tra di essi.
+          </p>
+
+          <p>Ecco un esempio di come definire una classe in JavaScript:</p>
+
+          <pre><code>// Definizione di una classe Persona
+class Persona {
+    constructor(nome, cognome, eta) {
+        this.nome = nome;
+        this.cognome = cognome;
+        this.eta = eta;
+    }
+
+    saluta() {
+        return "Ciao, sono " + this.nome + " " + this.cognome + "!";
+    }
+}
+
+// Creazione di un'istanza della classe Persona
+let mario = new Persona("Mario", "Rossi", 30);
+
+// Accesso alle proprietà e ai metodi dell'istanza
+console.log(mario.nome); // Output: Mario
+console.log(mario.saluta()); // Output: Ciao, sono Mario Rossi!
+</code></pre>
+
+          <p>
+            In questo esempio, <code>Persona</code> è una classe che ha tre
+            proprietà (nome, cognome e eta) e un metodo (saluta). L'istruzione
+            <code>let mario = new Persona("Mario", "Rossi", 30);</code> crea
+            un'istanza della classe Persona chiamata <code>mario</code>, e
+            possiamo accedere alle sue proprietà e ai suoi metodi utilizzando la
+            notazione punto (<code>mario.nome</code>,
+            <code>mario.saluta()</code>).
+          </p>
         </div>
       </div>
     </div>
