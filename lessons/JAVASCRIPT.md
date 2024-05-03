@@ -534,3 +534,30 @@ I metodi degli array sono funzioni predefinite che possono essere utilizzate per
    const slicedArray = array.slice(1, 3);
    // slicedArray sarà [2, 3]
    ```
+
+## Array immutabili
+
+Un array immutabile è una struttura dati in cui una volta che un array è stato creato, i suoi elementi non possono essere modificati. Questo significa che non è possibile aggiungere, rimuovere o modificare elementi dell'array dopo la sua creazione. In molti linguaggi di programmazione, come ad esempio JavaScript, esistono metodi per creare array immutabili, che possono essere utili in determinati contesti, ad esempio per garantire l'integrità dei dati o per scopi di programmazione funzionale.
+
+Ecco un esempio in JavaScript di come creare un array immutabile utilizzando alcune delle funzionalità disponibili nel linguaggio, come ad esempio l'uso di metodi come `slice` e `concat`:
+
+```javascript
+// Array originale
+const arrayOriginale = [1, 2, 3, 4, 5];
+
+// Creazione di un nuovo array immutabile aggiungendo un elemento
+const nuovoArray = arrayOriginale.concat(6);
+
+console.log("Array originale:", arrayOriginale); // Output: [1, 2, 3, 4, 5]
+console.log("Nuovo array immutabile:", nuovoArray); // Output: [1, 2, 3, 4, 5, 6]
+
+// Creazione di un nuovo array immutabile rimuovendo un elemento
+const arraySenzaElemento = arrayOriginale
+  .slice(0, 3)
+  .concat(arrayOriginale.slice(4));
+
+console.log("Array originale:", arrayOriginale); // Output: [1, 2, 3, 4, 5]
+console.log("Nuovo array immutabile senza l'elemento 4:", arraySenzaElemento); // Output: [1, 2, 3, 5]
+```
+
+In questo esempio, l'array originale `arrayOriginale` rimane immutabile mentre vengono create nuove versioni dell'array con operazioni come l'aggiunta o la rimozione di elementi, utilizzando i metodi `concat` e `slice`.
