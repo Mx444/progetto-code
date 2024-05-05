@@ -14,7 +14,7 @@ function addStudentNames() {
   listStudents.appendChild(newList); // Aggiungiamo l'elemento di lista alla lista
   codeStudents.push(newStudent); // Aggiungiamo il nome dello studente all'array
   textInputStudents.value = ""; // Reset del valore dell'input
-  //TODO
+
   // Aggiunge un evento di click all'elemento newList
   newList.addEventListener("click", function () {
     // Rimuove l'elemento newList dalla lista degli studenti nel documento HTML
@@ -68,7 +68,6 @@ textInputStudents.addEventListener("blur", nameCheck);
 // Aggiungiamo un ascoltatore per l'evento "click" sul pulsante "Aggiungi"
 btnAddStudents.addEventListener("click", addStudentNames);
 
-//TODO
 // Ottieni il riferimento alla lista HTML degli studenti raggruppati
 const groupedStudentsList = document.getElementById("groupedStudents");
 // Ottieni il riferimento alla select HTML per la dimensione del gruppo
