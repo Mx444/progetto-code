@@ -22,8 +22,15 @@ function addStudentNames() {
     }
   });
 }
+const btnResetStudents = document.getElementById("btnResetStudents");
 
-const userIcon = document.getElementById("userIcon");
+function resetStudentList() {
+  listStudents.innerHTML = "";
+  codeStudents.length = 0;
+  groupedStudentsList.innerHTML = "";
+}
+
+btnResetStudents.addEventListener("click", resetStudentList);
 
 function validateName(name) {
   return (
@@ -37,6 +44,7 @@ function validateName(name) {
 
 function nameCheck() {
   const name = textInputStudents.value.trim();
+  const userIcon = document.getElementById("userIcon");
   if (validateName(name)) {
     btnAddStudents.disabled = false;
     userIcon.className = "fa fa-user";
