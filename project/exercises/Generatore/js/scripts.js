@@ -65,7 +65,7 @@ btnAddStudents.addEventListener("click", addStudentNames);
 const groupedStudentsList = document.getElementById("groupedStudents");
 const groupSizeSelect = document.getElementById("groupSize");
 const btnGenerateGroups = document.getElementById("btnGenerateGroups");
-//!FIX
+
 function generateGroups() {
   if (codeStudents.length >= groupSizeSelect.value) {
     const groupSize = Number(groupSizeSelect.value);
