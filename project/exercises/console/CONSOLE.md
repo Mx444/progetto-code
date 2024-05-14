@@ -9,7 +9,7 @@ triplica;
 ```javascript
 // 2. Filtra solo i numeri dispari maggiori di 3
 const numbers = [1, 2, 3, 4, 5, 6, 7, 23];
-numbers.filter((number) => number > 3 && number % 2 !== 0);
+numbers.filter((a) => a > 3 && a % 2 !== 0);
 // [5, 7, 23]
 ```
 
@@ -27,7 +27,7 @@ people.find((a) => a.age > 18);
 ```javascript
 // 4. Calcola la somma di tutti i numeri nell'array
 const numbers = [1, 2, 3, 4, 5, 5, 200, 23];
-numbers.reduce((acc, curr) => acc + curr);
+numbers.reduce((a, b) => a + b);
 // 243
 ```
 
@@ -67,23 +67,27 @@ const purchases = [
   { customer: "Charlie", price: 25 },
 ];
 
-function sommaTotale() {
-  let sum = 0;
-  for (let i = 0; i < purchases.length; i++) {
-    if (purchases[i].customer === "Alice") {
-      sum += purchases[i].price;
-    }
-  }
-  return sum;
-}
+// function sommaTotale() {
+//   let sum = 0;
+//   for (let i = 0; i < purchases.length; i++) {
+//     if (purchases[i].customer === "Alice") {
+//       sum += purchases[i].price;
+//     }
+//   }
+//   return sum;
+// }
 
-function sommaTotale(a, b) {
-  if (b.customer === "Alice") {
-    a += b.price;
-  }
-  return a;
-}
-purchases.reduce(sommaTotale, 0);
+// function sommaTotale(a, b) {
+//   if (b.customer === "Alice") {
+//     a += b.price;
+//   }
+//   return a;
+// }
+// purchases.reduce(sommaTotale, 0);
+
+purchases.reduce((a, b) => {
+  return b.customer === "Alice" ? a + b.price : a;
+}, 0);
 // 35
 ```
 
@@ -106,7 +110,7 @@ findE.length;
 // 10. Crea un nuovo array contenente la radice quadrata di ciascun numero e poi calcola la somma di tutte le radici quadrate
 const numbers = [1, 4, 9, 16, 25];
 const radice = numbers.map((a) => Math.sqrt(a));
-radice.reduce((acc, curr) => acc + curr);
+radice.reduce((a, b) => a + b);
 // [1, 2, 3, 4, 5]
 // 15
 ```
