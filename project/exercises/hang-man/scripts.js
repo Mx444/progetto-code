@@ -8,7 +8,7 @@ class HangMan {
     this.charactersDiscovered = [];
   }
 
-  guess(character) {
+  check(character) {
     if (!/^[a-zA-Z]$/.test(character)) {
       return "Inserisci solo lettere dell'alfabeto.";
     }
@@ -9916,8 +9916,9 @@ const randomKeywords = [
 
 const game = new HangMan(randomKeywords);
 
-console.log(game.guess("a"));
-console.log(game.guess("b"));
-console.log(game.guess("c"));
-console.log(game.guess("d"));
-console.log(game.guess("e"));
+console.log(game.check("a"));
+console.log(game.check("b"));
+console.log(game.check("c"));
+console.log(game.check("d"));
+console.log(game.check("1"));
+console.log(game.check("a"));
