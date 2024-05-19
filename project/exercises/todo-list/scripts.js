@@ -54,7 +54,6 @@ todo.addTodo("Cucinare", 3);
 todo.removeTodo(1);
 todo.toggleTodoStatus(2);
 todo.toggleTodoStatus(3);
-todo.toggleTodoStatus(2);
 todo.toggleTodoStatus(3);
 todo.updateTodo(2, "Svegliarsi bello elegante");
 todo.updateTodo(3, "Studiare");
