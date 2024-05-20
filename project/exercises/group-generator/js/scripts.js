@@ -5,23 +5,38 @@ const textInputStudents = document.getElementById("textInputStudents");
 const listStudents = document.getElementById("listStudents");
 const codeStudents = [];
 
+function addStudent(name) {
+  if (validateName(name)) {
+    codeStudents.push(name);
+    const newList = document.createElement("li");
+    newList.textContent = name;
+    listStudents.appendChild(newList);
+
+    newList.addEventListener("click", function () {
+      removeStudent(name, newList);
+    });
+  } else {
+    window.alert(
+      "Il nome non è valido. Assicurati che sia composto solo da lettere e che sia compreso tra 2 e 20 caratteri. Inoltre, controlla che non ci siano nomi duplicati."
+    );
+  }
+}
+
+function removeStudent(name, listItem) {
+  listStudents.removeChild(listItem);
+  const index = codeStudents.indexOf(name);
+  if (index !== -1) {
+    codeStudents.splice(index, 1);
+    groupedStudentsList.innerHTML = "";
+  }
+}
+
 function addStudentNames() {
   const newStudent = textInputStudents.value.trim();
-  const newList = document.createElement("li");
-  newList.textContent = newStudent;
-  listStudents.appendChild(newList);
-  codeStudents.push(newStudent);
+  addStudent(newStudent);
   textInputStudents.value = "";
-
-  newList.addEventListener("click", function () {
-    listStudents.removeChild(newList);
-    const index = codeStudents.indexOf(newStudent);
-    if (index !== -1) {
-      codeStudents.splice(index, 1);
-      groupedStudentsList.innerHTML = "";
-    }
-  });
 }
+
 const btnResetStudents = document.getElementById("btnResetStudents");
 
 function resetStudentList() {
@@ -78,7 +93,8 @@ function generateGroups() {
     for (let i = 0; i < numGroups; i++) {
       const group = students.slice(i * groupSize, (i + 1) * groupSize);
       const groupItem = document.createElement("li");
-      groupItem.textContent = "Gruppo " + (i + 1) + ": " + group.join(",");
+      groupItem.textContent = "Gruppo " + (i + 1) + ": " + group.join(", ");
+      groupItem.classList.add("group-item"); // Aggiungi una classe specifica
       groupedStudentsList.appendChild(groupItem);
     }
   } else {
@@ -91,3 +107,49 @@ function generateGroups() {
 }
 
 btnGenerateGroups.addEventListener("click", generateGroups);
+
+function exportStudentList() {
+  if (codeStudents.length === 0) {
+    window.alert("Non ci sono studenti nella lista da esportare.");
+    return;
+  }
+
+  let csvContent = "data:text/csv;charset=utf-8," + codeStudents.join("\n");
+  let encodedUri = encodeURI(csvContent);
+  let link = document.createElement("a");
+  link.setAttribute("href", encodedUri);
+  link.setAttribute("download", "lista_studenti.csv");
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
+const btnExportStudents = document.getElementById("btnExportStudents");
+btnExportStudents.addEventListener("click", exportStudentList);
+
+function importStudentList(event) {
+  const file = event.target.files[0];
+  if (!file) {
+    return;
+  }
+
+  const reader = new FileReader();
+  reader.onload = function (e) {
+    const content = e.target.result;
+    const lines = content.split("\n");
+
+    lines.forEach((line) => {
+      const student = line.trim();
+      addStudent(student);
+    });
+  };
+  reader.readAsText(file);
+}
+
+const fileInput = document.getElementById("fileInput");
+fileInput.addEventListener("change", importStudentList);
+
+const btnImportStudents = document.getElementById("btnImportStudents");
+btnImportStudents.addEventListener("click", function () {
+  fileInput.click();
+});
