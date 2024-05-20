@@ -94,7 +94,7 @@ function generateGroups() {
       const group = students.slice(i * groupSize, (i + 1) * groupSize);
       const groupItem = document.createElement("li");
       groupItem.textContent = "Gruppo " + (i + 1) + ": " + group.join(", ");
-      groupItem.classList.add("group-item"); // Aggiungi una classe specifica
+      groupItem.classList.add("group-item");
       groupedStudentsList.appendChild(groupItem);
     }
   } else {
