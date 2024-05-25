@@ -75,7 +75,7 @@ primaPersona.info();
 
 # 4. Incapsulamento
 
-Questo concetto implica l'incapsulamento dei dati (proprietà) e delle operazioni (metodi) all'interno di un oggetto in modo che possano essere accessibili solo tramite interfacce pubbliche. In JavaScript, l'incapsulamento è spesso ottenuto utilizzando chiusure o variabili locali all'interno di una funzione costruttrice.
+Questo concetto implica l'incapsulamento dei dati (proprietà) e delle operazioni (metodi) all'interno di un oggetto in modo che possano essere accessibili solo tramite interfacce pubbliche. In JavaScript, l'incapsulamento è spesso ottenuto utilizzando chiusure o variabili locali all'interno di una funzione costruttrice
 
 ```javascript
 class Volo {
