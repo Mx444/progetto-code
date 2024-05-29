@@ -20,7 +20,7 @@
 
 - **Dead Code Injection**: L'inserimento di porzioni di codice inutilizzate o non raggiungibili nel programma al fine di confondere gli analisti e aumentare la complessità del codice.
 
-- **Code Splitting**: Il processo di suddivisione del codice sorgente in più file o moduli, rendendo più complesso l'analisi del programma nel suo complesso.
+- **Code Splitting**: Il processo di suddivisione del codice sorgente in più file o moduli, rendendo più complesso l'analisi del programma nel suo complesso
 
 # Reverse Engineering
 
@@ -75,7 +75,7 @@
 # Controllo Versione
 
 - **Git**: Sistema di controllo versione per tracciare i cambiamenti nel codice sorgente.
-- **Repository**: Raccolta di codice sorgente, documentazione, file di configurazione, ecc. A.K.A. *repo*.
+- **Repository**: Raccolta di codice sorgente, documentazione, file di configurazione, ecc. A.K.A. _repo_.
 - **Fork**: Copia di un repository che ci permette di sperimentare qualsiasi cambiamento vogliamo senza modificare il progetto principale.
 - **Pull Request**: Una richiesta per integrare le modifiche apportate in un branch in un altro, spesso utilizzato in collaborazione con altri sviluppatori.
 - **GitHub**: Un servizio di hosting per progetti software, implementazione dello strumento di Git.
@@ -97,8 +97,7 @@
 
 # Sicurezza
 
-- **Crittografia**: Conversione dei dati da un formato leggibile in un formato codificato che può essere letto o elaborato solo dopo che è stato,La crittografia è usata in molte applicazioni come le carte per le transazioni bancarie, le password dei computer e le transazioni di commercio elettronico.
--**Cybersecurity**: Insieme di tecnologie, processi e misure di protezione progettate per ridurre il rischio di attacchi informatici.
+- **Crittografia**: Conversione dei dati da un formato leggibile in un formato codificato che può essere letto o elaborato solo dopo che è stato,La crittografia è usata in molte applicazioni come le carte per le transazioni bancarie, le password dei computer e le transazioni di commercio elettronico. -**Cybersecurity**: Insieme di tecnologie, processi e misure di protezione progettate per ridurre il rischio di attacchi informatici.
 - **Autenticazione e Autorizzazione**: Processi che controllano chi può accedere a un sistema o a una risorsa e cosa può fare.
 - **Firewall**: Dispositivo di sicurezza che monitora e controlla il traffico di rete.
 - **Penetration Testing**: Attività mirata a testare la sicurezza di un sistema simulando attacchi reali per identificare vulnerabilità.
